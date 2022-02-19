@@ -13,17 +13,27 @@ title: Latex
       {% if section.downloads %}
       <ul class="collection">
         {% for download in section.downloads %}
-        <a href="{{site.url}}/downloads/{{download.url}}" class="row valign-wrapper black-text collection-item"
-          style="display:flex; align-items: center;">
+        <li class="row valign-wrapper black-text collection-item">
+          {% assign width = download.urls | size | times: 2%}
+          <div class="col l{{12 | minus: width}} s12"> {{ download.testo}}</div>
+          {% if download%}
 
-          <div class="col s10">{{ download.testo}}</div>
-          <div class="col s2 right-align">
-            <div class="chip custom2 white-text" style="display: inline-flex; align-items: center; padding-right:1.1em">
-              <i class="material-icons" style="margin-right: 0.2em; font-size: 12pt">file_download</i> Download
-            </div>
+
+          <div class="col l{{width}} s12 right-align">
+            {% for file in download.urls %}
+
+            <a class="chip custom2 white-text" href="{{site.url}}/downloads/{{file.url}}"
+              style="display: inline-flex; align-items: center; margin:5px 0px;">
+              <i class="material-icons" style="margin-right: 0.2em; font-size: 12pt">file_download</i>
+              {{file.nome}}
+            </a>
+
+            {% endfor %}
           </div>
-          </li>
-          {% endfor %}
+
+          {% endif %}
+        </li>
+        {% endfor %}
       </ul>
       {% endif %}
     </div>

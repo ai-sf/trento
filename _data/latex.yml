@@ -3,9 +3,15 @@ sezioni:
     testo: "Testo di prova"
     downloads:
       - testo: "Introduzione"
-        url: "Introduzione.pdf"
-#      - testo: "Download 2"
-#        url: "boh"
+        urls: 
+        - nome: "Download"
+          url: "Introduzione.pdf"
+      - testo: "Download 2"
+        urls: 
+        - nome: "Teoria"
+          url: "Lezione_1.pdf"
+        - nome: "Esercizi"
+          url: "Esercizi_1.pdf"
 #      - testo: "Download 3"
 #        url: "boh"
   - titolo: "La Contea"
