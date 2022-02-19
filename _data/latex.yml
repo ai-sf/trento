@@ -1,4 +1,4 @@
-sezioni:
+onesezioni:
   - titolo: "Corso base"
     testo: "giovedì 3-10-17-24 marzo dalle 15.30 alle 17.30 (aula A102)"
     downloads:
@@ -6,13 +6,34 @@ sezioni:
         urls: 
         - nome: "Download"
           url: "Introduzione.pdf"
-      - testo: "Download 2"
+      - testo: "Lezione 1"
         urls: 
         - nome: "Teoria"
           url: "Lezione_1.pdf"
         - nome: "Esercizi"
           url: "Esercizi_1.pdf"
-#      - testo: "Download 3"
-#        url: "boh"
+#      - testo: "Lezione 2"
+#        urls: 
+#       - nome: "Teoria"
+#          url: "Lezione_2.pdf"
+#        - nome: "Esercizi"
+#          url: "Esercizi_2.pdf"
+#      - testo: "Lezione 3"
+#        urls: 
+#       - nome: "Teoria"
+#          url: "Lezione_3.pdf"
+#        - nome: "Esercizi"
+#          url: "Esercizi_3.pdf"
+#      - testo: "Lezione 4"
+#        urls: 
+#       - nome: "Teoria"
+#          url: "Lezione_4.pdf"
+#        - nome: "Esercizi"
+#          url: "Esercizi_4.pdf"
   - titolo: "Corso avanzato"
     testo: "venerdì 4 marzo dalle 15.30 alle 17.30 (aula A102)"
+#    downloads:
+#      - testo: "Lezione avanzata"
+#        urls: 
+#        - nome: "Download"
+#          url: "Lezione_4bis.pdf"
