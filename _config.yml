@@ -1,7 +1,7 @@
 # Site settings
-# title: "Acr Ev"
-# description: "nome evento completo"
-url: "http://ai-sf.it/event_website_template" # the base hostname & protocol for your site
+title: "AISF Trento"
+description: "Sito del Comitato Locale di Trento"
+url: "http://ai-sf.it/trento" # the base hostname & protocol for your site
 destination: ../site/
 locale: "it"
 

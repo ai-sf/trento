@@ -1,0 +1,12 @@
+sezioni:
+  - titolo: "Terra di Mezzo"
+    testo: "Testo di prova"
+    downloads:
+      - testo: "Introduzione"
+        url: "Introduzione.pdf"
+#      - testo: "Download 2"
+#        url: "boh"
+#      - testo: "Download 3"
+#        url: "boh"
+  - titolo: "La Contea"
+    testo: "Prova 2"

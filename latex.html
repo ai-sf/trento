@@ -1,0 +1,32 @@
+---
+layout: page
+title: Latex
+---
+
+
+{% for section in site.data.latex.sezioni %}
+<div class="section">
+  <div class="row">
+    <div class="col s12">
+      <h3>{{section.titolo}} </h3>
+      <p>{{ section.testo }}</p>
+      {% if section.downloads %}
+      <ul class="collection">
+        {% for download in section.downloads %}
+        <a href="{{site.url}}/downloads/{{download.url}}" class="row valign-wrapper black-text collection-item"
+          style="display:flex; align-items: center;">
+
+          <div class="col s10">{{ download.testo}}</div>
+          <div class="col s2 right-align">
+            <div class="chip custom2 white-text" style="display: inline-flex; align-items: center; padding-right:1.1em">
+              <i class="material-icons" style="margin-right: 0.2em; font-size: 12pt">file_download</i> Download
+            </div>
+          </div>
+          </li>
+          {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endfor %}
