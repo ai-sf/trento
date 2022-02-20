@@ -1,5 +1,5 @@
 title: Associazione Italiana Studenti di Fisica
-descr: Comitato Nazionale dell'International Association of Physics Students (IAPS), AISF è un'associazione con finalità culturali, il cui obiettivo è la creazione di un network tra gli studenti di Fisica italiani attraverso l'organizzazione di eventi locali, nazionali e internazionali.
+descr: Comitato Nazionale dell'International Association of Physics Students (IAPS), AISF è un'associazione con finalità culturali, il cui obiettivo è la creazione di un network tra gli studenti di Fisica italiani.
 
 contact:
   - name: Presidente
@@ -10,7 +10,7 @@ contact:
 connect:
   - name: Facebook
     url: https://www.facebook.com/AisfTrento/
-  - name: Twitter
-    url: https://twitter.com/aisf_fisica
+#  - name: Twitter
+#    url: https://twitter.com/aisf_fisica
   - name: Instagram
-    url: https://www.instagram.com/aisf_physics/
+    url: https://www.instagram.com/aisf_trento/
