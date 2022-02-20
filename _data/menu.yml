@@ -1,7 +1,7 @@
-- text: Home
-  url: https://ai-sf.it/trento/
-- text: Chi siamo
-  url: comitato
+#- text: Home
+#  url: https://ai-sf.it/trento/
+#- text: Chi siamo
+#  url: comitato
 - text: Corso Latex
   url: latex
 - text: AISF
