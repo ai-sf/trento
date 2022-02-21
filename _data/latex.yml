@@ -37,3 +37,30 @@ sezioni:
 #        urls: 
 #        - nome: "Download"
 #          url: "Lezione_4bis.pdf"
+  - titolo: "Fonti utili"
+    testo: "ulteriori approfondimenti consigliati"
+    downloads:
+      - testo: "L'arte di scrivere con Latex"
+        urls: 
+        - nome: "Download"
+          url: "arte_Latex.pdf"
+          
+      - testo: "The not so short introduction to Latex"
+        urls: 
+        - nome: "Download"
+          url: "NotSoShortIntro_Latex.pdf"
+          
+      - testo: "Latex per l'impaziente"
+        urls: 
+        - nome: "Download"
+          url: "LaTeXimpaziente.pdf"
+          
+      - testo: "Latex facile"
+        urls: 
+        - nome: "Download"
+          url: "Latex_facile.pdf"
+          
+      - testo: "Scrivere la tesi di laurea con Latex"
+        urls: 
+        - nome: "Download"
+          url: "Latex_tesi.pdf"
