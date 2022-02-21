@@ -40,27 +40,27 @@ sezioni:
   - titolo: "Fonti utili"
     testo: "ulteriori approfondimenti consigliati"
     downloads:
-      - testo: "L'arte di scrivere con Latex"
+      - testo: "L'arte di scrivere con Latex - Pantieri, Gordini"
         urls: 
         - nome: "Download"
           url: "arte_Latex.pdf"
           
-      - testo: "The not so short introduction to Latex"
+      - testo: "The not so short introduction to Latex - Oetiker"
         urls: 
         - nome: "Download"
           url: "NotSoShortIntro_Latex.pdf"
           
-      - testo: "Latex per l'impaziente"
+      - testo: "Latex per l'impaziente - Pantieri"
         urls: 
         - nome: "Download"
           url: "LaTeXimpaziente.pdf"
           
-      - testo: "Latex facile"
+      - testo: "Latex facile- Garbellini"
         urls: 
         - nome: "Download"
           url: "Latex_facile.pdf"
           
-      - testo: "Scrivere la tesi di laurea con Latex"
+      - testo: "Scrivere la tesi di laurea con Latex - De Marco"
         urls: 
         - nome: "Download"
           url: "Latex_tesi.pdf"
