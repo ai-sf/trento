@@ -32,11 +32,12 @@ sezioni:
 #          url: "Esercizi_4.pdf"
   - titolo: "Corso avanzato"
     testo: "venerdì 4 marzo dalle 15.30 alle 17.30 (aula A102)"
-#    downloads:
-#      - testo: "Lezione avanzata"
-#        urls: 
-#        - nome: "Download"
-#          url: "Lezione_4bis.pdf"
+    downloads:
+      - testo: "Lezione avanzata"
+        urls: 
+        - nome: "Download"
+          url: "Lezione_4bis.pdf"
+
   - titolo: "Fonti utili"
     testo: "ulteriori approfondimenti consigliati"
     downloads:
