@@ -14,7 +14,7 @@ sezioni:
           url: "Esercizi_1.pdf"
       - testo: "Lezione 2"
         urls: 
-       - nome: "Teoria"
+        - nome: "Teoria"
           url: "Lezione_2.pdf"
         - nome: "Esercizi"
           url: "Esercizi_2.pdf"
