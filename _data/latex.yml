@@ -12,18 +12,18 @@ sezioni:
           url: "Lezione_1.pdf"
         - nome: "Esercizi"
           url: "Esercizi_1.pdf"
-      - testo: "Lezione 2 - ambienti matematici"
-        urls: 
-        - nome: "Teoria"
-          url: "Lezione_2.pdf"
-        - nome: "Esercizi"
-          url: "Esercizi_2.pdf"
-      - testo: "Lezione 3 - tabelle e figure"
-        urls: 
-        - nome: "Teoria"
-          url: "Lezione_3.pdf"
-        - nome: "Esercizi"
-          url: "Esercizi_3.pdf"
+#      - testo: "Lezione 2 - ambienti matematici"
+#        urls: 
+#        - nome: "Teoria"
+#          url: "Lezione_2.pdf"
+#        - nome: "Esercizi"
+#          url: "Esercizi_2.pdf"
+#      - testo: "Lezione 3 - tabelle e figure"
+#        urls: 
+#        - nome: "Teoria"
+#          url: "Lezione_3.pdf"
+#        - nome: "Esercizi"
+#          url: "Esercizi_3.pdf"
 #      - testo: "Lezione 4 - varie ed eventuali"
 #        urls: 
 #       - nome: "Teoria"
@@ -32,11 +32,11 @@ sezioni:
 #          url: "Esercizi_4.pdf"
   - titolo: "Corso avanzato"
     testo: "venerdì 4 marzo dalle 15.30 alle 17.30 (aula A102)"
-    downloads:
-      - testo: "Lezione avanzata - gestire una tesi con Latex"
-        urls: 
-        - nome: "Download"
-          url: "Lezione_4bis.pdf"
+#    downloads:
+#      - testo: "Lezione avanzata - gestire una tesi con Latex"
+#        urls: 
+#        - nome: "Download"
+#          url: "Lezione_4bis.pdf"
 
   - titolo: "Fonti utili"
     testo: "ulteriori approfondimenti consigliati"
