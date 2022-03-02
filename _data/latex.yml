@@ -56,7 +56,7 @@ sezioni:
         - nome: "Download"
           url: "LaTeXimpaziente.pdf"
           
-      - testo: "Latex facile- Garbellini"
+      - testo: "Latex facile - Garbellini"
         urls: 
         - nome: "Download"
           url: "Latex_facile.pdf"
