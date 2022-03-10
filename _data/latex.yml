@@ -12,19 +12,19 @@ sezioni:
           url: "Lezione_1.pdf"
         - nome: "Esercizi"
           url: "Esercizi_1.pdf"
-#      - testo: "Lezione 2 - ambienti matematici"
-#        urls: 
-#        - nome: "Teoria"
-#          url: "Lezione_2.pdf"
-#        - nome: "Esercizi"
-#          url: "Esercizi_2.pdf"
-#      - testo: "Lezione 3 - tabelle e figure"
+      - testo: "Lezione 2 - ambienti matematici"
+        urls: 
+        - nome: "Teoria"
+          url: "Lezione_2.pdf"
+        - nome: "Esercizi"
+          url: "Esercizi_2.pdf"
+      - testo: "Lezione 3 - tabelle e figure"
 #        urls: 
 #        - nome: "Teoria"
 #          url: "Lezione_3.pdf"
 #        - nome: "Esercizi"
 #          url: "Esercizi_3.pdf"
-#      - testo: "Lezione 4 - varie ed eventuali"
+      - testo: "Lezione 4 - varie ed eventuali"
 #        urls: 
 #       - nome: "Teoria"
 #          url: "Lezione_4.pdf"
