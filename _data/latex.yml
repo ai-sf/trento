@@ -25,11 +25,11 @@ sezioni:
         - nome: "Esercizi"
           url: "Esercizi_3.pdf"
       - testo: "Lezione 4 - varie ed eventuali"
-#        urls: 
-#       - nome: "Teoria"
-#          url: "Lezione_4.pdf"
-#        - nome: "Esercizi"
-#          url: "Esercizi_4.pdf"
+        urls: 
+        - nome: "Teoria"
+          url: "Lezione_4.pdf"
+        - nome: "Esercizi"
+          url: "Esercizi_4.pdf"
   - titolo: "Corso avanzato"
     testo: "venerdì 4 marzo dalle 15.30 alle 17.30 (aula A102)"
     downloads:
