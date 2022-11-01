@@ -7,7 +7,7 @@ sezioni:
         urls:
         - nome: "Download"
           url: "Introduzione_22-23.pdf"
-        - testo: "Lezione 1 - struttura del testo"
+      - testo: "Lezione 1 - struttura del testo"
           urls:
         - nome: "Teoria"
           url: "Lezione-1_22-23.pdf"
