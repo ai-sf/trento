@@ -1,18 +1,18 @@
 sezioni:
 
   - titolo: "Corso base 2022"
-    # testo: "giovedì 3-10-17-24 marzo dalle 15.30 alle 17.30 (aula A102)"
-    # downloads:
-    #   - testo: "Introduzione"
-    #     urls:
-    #     - nome: "Download"
-    #       url: "Introduzione.pdf"
-    #   - testo: "Lezione 1 - struttura del testo"
-    #     urls:
-    #     - nome: "Teoria"
-    #       url: "Lezione_1.pdf"
-    #     - nome: "Esercizi"
-    #       url: "Esercizi_1.pdf"
+    testo: "mercoledì 2-9-16-23 novembre dalle 17.30 alle 19.30 (aula A102)"
+    downloads:
+      - testo: "Introduzione"
+        urls:
+        - nome: "Download"
+          url: "Introduzione_22-23.pdf"
+        - testo: "Lezione 1 - struttura del testo"
+          urls:
+        - nome: "Teoria"
+          url: "Lezione-1_22-23.pdf"
+        - nome: "Esercizi"
+          url: "Esercizi-1_22-23.pdf"
     #   - testo: "Lezione 2 - ambienti matematici"
     #     urls:
     #     - nome: "Teoria"
@@ -39,6 +39,36 @@ sezioni:
   #       - nome: "Download"
   #         url: "Lezione_4bis.pdf"
 
+
+  - titolo: "Fonti utili"
+    testo: "ulteriori approfondimenti consigliati"
+    downloads:
+      - testo: "L'arte di scrivere con Latex - Pantieri, Gordini"
+        urls:
+        - nome: "Download"
+          url: "arte_Latex.pdf"
+
+      - testo: "The not so short introduction to Latex - Oetiker"
+        urls:
+        - nome: "Download"
+          url: "NotSoShortIntro_Latex.pdf"
+
+      - testo: "Latex per l'impaziente - Pantieri"
+        urls:
+        - nome: "Download"
+          url: "LaTeXimpaziente.pdf"
+
+      - testo: "Latex facile - Garbellini"
+        urls:
+        - nome: "Download"
+          url: "Latex_facile.pdf"
+
+      - testo: "Scrivere la tesi di laurea con Latex - De Marco"
+        urls:
+        - nome: "Download"
+          url: "Latex_tesi.pdf"
+          
+   
   - titolo: "Corso base 2021"
     testo: "giovedì 3-10-17-24 marzo dalle 15.30 alle 17.30 (aula A102)"
     downloads:
@@ -77,31 +107,3 @@ sezioni:
         urls:
         - nome: "Download"
           url: "Lezione_4bis.pdf"
-
-  - titolo: "Fonti utili"
-    testo: "ulteriori approfondimenti consigliati"
-    downloads:
-      - testo: "L'arte di scrivere con Latex - Pantieri, Gordini"
-        urls:
-        - nome: "Download"
-          url: "arte_Latex.pdf"
-
-      - testo: "The not so short introduction to Latex - Oetiker"
-        urls:
-        - nome: "Download"
-          url: "NotSoShortIntro_Latex.pdf"
-
-      - testo: "Latex per l'impaziente - Pantieri"
-        urls:
-        - nome: "Download"
-          url: "LaTeXimpaziente.pdf"
-
-      - testo: "Latex facile - Garbellini"
-        urls:
-        - nome: "Download"
-          url: "Latex_facile.pdf"
-
-      - testo: "Scrivere la tesi di laurea con Latex - De Marco"
-        urls:
-        - nome: "Download"
-          url: "Latex_tesi.pdf"
