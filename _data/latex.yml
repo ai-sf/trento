@@ -1,40 +1,80 @@
 sezioni:
-  - titolo: "Corso base"
+
+  - titolo: "Corso base 2022"
+    # testo: "giovedì 3-10-17-24 marzo dalle 15.30 alle 17.30 (aula A102)"
+    # downloads:
+    #   - testo: "Introduzione"
+    #     urls:
+    #     - nome: "Download"
+    #       url: "Introduzione.pdf"
+    #   - testo: "Lezione 1 - struttura del testo"
+    #     urls:
+    #     - nome: "Teoria"
+    #       url: "Lezione_1.pdf"
+    #     - nome: "Esercizi"
+    #       url: "Esercizi_1.pdf"
+    #   - testo: "Lezione 2 - ambienti matematici"
+    #     urls:
+    #     - nome: "Teoria"
+    #       url: "Lezione_2.pdf"
+    #     - nome: "Esercizi"
+    #       url: "Esercizi_2.pdf"
+    #   - testo: "Lezione 3 - tabelle e figure"
+    #     urls:
+    #     - nome: "Teoria"
+    #       url: "Lezione_3.pdf"
+    #     - nome: "Esercizi"
+    #       url: "Esercizi_3.pdf"
+    #   - testo: "Lezione 4 - varie ed eventuali"
+    #     urls:
+    #     - nome: "Teoria"
+    #       url: "Lezione_4.pdf"
+    #     - nome: "Esercizi"
+    #       url: "Esercizi_4.pdf"
+  # - titolo: "Corso avanzato 2022"
+  #   testo: "venerdì 4 marzo dalle 15.30 alle 17.30 (aula A102)"
+  #   downloads:
+  #     - testo: "Lezione avanzata - gestire una tesi con Latex"
+  #       urls:
+  #       - nome: "Download"
+  #         url: "Lezione_4bis.pdf"
+
+  - titolo: "Corso base 2021"
     testo: "giovedì 3-10-17-24 marzo dalle 15.30 alle 17.30 (aula A102)"
     downloads:
       - testo: "Introduzione"
-        urls: 
+        urls:
         - nome: "Download"
           url: "Introduzione.pdf"
       - testo: "Lezione 1 - struttura del testo"
-        urls: 
+        urls:
         - nome: "Teoria"
           url: "Lezione_1.pdf"
         - nome: "Esercizi"
           url: "Esercizi_1.pdf"
       - testo: "Lezione 2 - ambienti matematici"
-        urls: 
+        urls:
         - nome: "Teoria"
           url: "Lezione_2.pdf"
         - nome: "Esercizi"
           url: "Esercizi_2.pdf"
       - testo: "Lezione 3 - tabelle e figure"
-        urls: 
+        urls:
         - nome: "Teoria"
           url: "Lezione_3.pdf"
         - nome: "Esercizi"
           url: "Esercizi_3.pdf"
       - testo: "Lezione 4 - varie ed eventuali"
-        urls: 
+        urls:
         - nome: "Teoria"
           url: "Lezione_4.pdf"
         - nome: "Esercizi"
           url: "Esercizi_4.pdf"
-  - titolo: "Corso avanzato"
+  - titolo: "Corso avanzato 2021"
     testo: "venerdì 4 marzo dalle 15.30 alle 17.30 (aula A102)"
     downloads:
       - testo: "Lezione avanzata - gestire una tesi con Latex"
-        urls: 
+        urls:
         - nome: "Download"
           url: "Lezione_4bis.pdf"
 
@@ -42,26 +82,26 @@ sezioni:
     testo: "ulteriori approfondimenti consigliati"
     downloads:
       - testo: "L'arte di scrivere con Latex - Pantieri, Gordini"
-        urls: 
+        urls:
         - nome: "Download"
           url: "arte_Latex.pdf"
-          
+
       - testo: "The not so short introduction to Latex - Oetiker"
-        urls: 
+        urls:
         - nome: "Download"
           url: "NotSoShortIntro_Latex.pdf"
-          
+
       - testo: "Latex per l'impaziente - Pantieri"
-        urls: 
+        urls:
         - nome: "Download"
           url: "LaTeXimpaziente.pdf"
-          
+
       - testo: "Latex facile - Garbellini"
-        urls: 
+        urls:
         - nome: "Download"
           url: "Latex_facile.pdf"
-          
+
       - testo: "Scrivere la tesi di laurea con Latex - De Marco"
-        urls: 
+        urls:
         - nome: "Download"
           url: "Latex_tesi.pdf"

@@ -1,1 +1,0 @@
-Template for website of Local Committees of AISF
