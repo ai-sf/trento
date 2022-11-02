@@ -70,7 +70,7 @@ sezioni:
           
    
   - titolo: "Corso base 2021"
-    testo: "giovedì 3-10-17-24 marzo dalle 15.30 alle 17.30 (aula A102)"
+    #testo: "giovedì 3-10-17-24 marzo dalle 15.30 alle 17.30 (aula A102)"
     downloads:
       - testo: "Introduzione"
         urls:
@@ -100,8 +100,8 @@ sezioni:
           url: "Lezione_4.pdf"
         - nome: "Esercizi"
           url: "Esercizi_4.pdf"
-  - titolo: "Corso avanzato 2021"
-    testo: "venerdì 4 marzo dalle 15.30 alle 17.30 (aula A102)"
+  #- titolo: "Corso avanzato 2021"
+  #  testo: "venerdì 4 marzo dalle 15.30 alle 17.30 (aula A102)"
     downloads:
       - testo: "Lezione avanzata - gestire una tesi con Latex"
         urls:
