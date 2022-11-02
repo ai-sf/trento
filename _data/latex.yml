@@ -102,7 +102,7 @@ sezioni:
           url: "Esercizi_4.pdf"
   #- titolo: "Corso avanzato 2021"
   #  testo: "venerdì 4 marzo dalle 15.30 alle 17.30 (aula A102)"
-    downloads:
+  #  downloads:
       - testo: "Lezione avanzata - gestire una tesi con Latex"
         urls:
         - nome: "Download"
