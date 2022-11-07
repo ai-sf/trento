@@ -1,6 +1,6 @@
 sezioni:
 
-  - titolo: "Corso base 2022"
+  - titolo: "Corso base 2022-2023"
     testo: "mercoledì 2-9-16-23 novembre dalle 17.30 alle 19.30 (aula A102)"
     downloads:
       - testo: "Introduzione"
@@ -13,20 +13,20 @@ sezioni:
           url: "Lezione-1_22-23.pdf"
         - nome: "Esercizi"
           url: "Esercizi-1_22-23.pdf"
-    #   - testo: "Lezione 2 - ambienti matematici"
-    #     urls:
-    #     - nome: "Teoria"
+      - testo: "Lezione 2 - ambienti matematici"
+        urls:
+    #    - nome: "Teoria"
     #       url: "Lezione_2.pdf"
-    #     - nome: "Esercizi"
+    #    - nome: "Esercizi"
     #       url: "Esercizi_2.pdf"
-    #   - testo: "Lezione 3 - tabelle e figure"
-    #     urls:
+      - testo: "Lezione 3 - tabelle e figure"
+        urls:
     #     - nome: "Teoria"
     #       url: "Lezione_3.pdf"
     #     - nome: "Esercizi"
     #       url: "Esercizi_3.pdf"
-    #   - testo: "Lezione 4 - varie ed eventuali"
-    #     urls:
+      - testo: "Lezione 4 - varie ed eventuali"
+        urls:
     #     - nome: "Teoria"
     #       url: "Lezione_4.pdf"
     #     - nome: "Esercizi"
@@ -69,7 +69,7 @@ sezioni:
           url: "Latex_tesi.pdf"
           
    
-  - titolo: "Corso 2021"
+  - titolo: "Corso 2021-2022"
     testo: " "
     downloads:
       - testo: "Introduzione"
