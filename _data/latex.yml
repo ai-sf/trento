@@ -16,9 +16,9 @@ sezioni:
       - testo: "Lezione 2 - ambienti matematici"
         urls:
         - nome: "Teoria"
-    #       url: "Lezione-2_22-23.pdf"
+          url: "Lezione-2_22-23.pdf"
         - nome: "Esercizi"
-    #       url: "Esercizi-2_22-23.pdf"
+          url: "Esercizi-2_22-23.pdf"
       - testo: "Lezione 3 - tabelle e figure"
         urls:
         - nome: "Teoria"
