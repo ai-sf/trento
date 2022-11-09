@@ -21,15 +21,15 @@ sezioni:
           url: "Esercizi-2_22-23.pdf"
       - testo: "Lezione 3 - tabelle e figure"
         urls:
-        - nome: "Teoria"
+    #    - nome: "Teoria"
     #       url: "Lezione-3_22-23.pdf"
-        - nome: "Esercizi"
+    #    - nome: "Esercizi"
     #       url: "Esercizi-3_22-23.pdf"
       - testo: "Lezione 4 - varie ed eventuali"
         urls:
-        - nome: "Teoria"
+    #    - nome: "Teoria"
     #      url: "Lezione-4_22-23.pdf"
-        - nome: "Esercizi"
+    #    - nome: "Esercizi"
     #       url: "Esercizi-4_22-23.pdf"
   # - titolo: "Corso avanzato 2022"
   #   testo: "venerdì 4 marzo dalle 15.30 alle 17.30 (aula A102)"
@@ -70,7 +70,7 @@ sezioni:
           
    
   - titolo: "Corso 2021-2022"
-    testo: " "
+    testo: "Le vecchie slide possono essere richieste via mail a giulia.morelli@ai-sf.it"
     downloads:
       - testo: "Introduzione"
         urls:
@@ -83,23 +83,23 @@ sezioni:
         - nome: "Esercizi"
           url: "Esercizi_1.pdf"
       - testo: "Lezione 2 - ambienti matematici"
-        urls:
-        - nome: "Teoria"
-          url: "Lezione_2.pdf"
-        - nome: "Esercizi"
-          url: "Esercizi_2.pdf"
+    #    urls:
+    #    - nome: "Teoria"
+    #      url: "Lezione_2.pdf"
+    #    - nome: "Esercizi"
+    #      url: "Esercizi_2.pdf"
       - testo: "Lezione 3 - tabelle e figure"
-        urls:
-        - nome: "Teoria"
-          url: "Lezione_3.pdf"
-        - nome: "Esercizi"
-          url: "Esercizi_3.pdf"
+    #    urls:
+    #    - nome: "Teoria"
+    #      url: "Lezione_3.pdf"
+    #    - nome: "Esercizi"
+    #      url: "Esercizi_3.pdf"
       - testo: "Lezione 4 - varie ed eventuali"
-        urls:
-        - nome: "Teoria"
-          url: "Lezione_4.pdf"
-        - nome: "Esercizi"
-          url: "Esercizi_4.pdf"
+    #    urls:
+    #    - nome: "Teoria"
+    #      url: "Lezione_4.pdf"
+    #    - nome: "Esercizi"
+    #      url: "Esercizi_4.pdf"
       - testo: "Lezione avanzata - gestire una tesi con Latex"
         urls:
         - nome: "Download"
