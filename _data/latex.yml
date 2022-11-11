@@ -83,11 +83,11 @@ sezioni:
         - nome: "Esercizi"
           url: "Esercizi_1.pdf"
       - testo: "Lezione 2 - ambienti matematici"
-    #    urls:
-    #    - nome: "Teoria"
-    #      url: "Lezione_2.pdf"
-    #    - nome: "Esercizi"
-    #      url: "Esercizi_2.pdf"
+        urls:
+        - nome: "Teoria"
+          url: "Lezione_2.pdf"
+        - nome: "Esercizi"
+          url: "Esercizi_2.pdf"
       - testo: "Lezione 3 - tabelle e figure"
     #    urls:
     #    - nome: "Teoria"
