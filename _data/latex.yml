@@ -1,7 +1,7 @@
 sezioni:
 
   - titolo: "Corso base 2022-2023"
-    testo: "mercoledì 2-9-16-23 novembre dalle 17.30 alle 19.30 (aula A102)"
+    testo: "mercoledì 2-9-23-30 novembre dalle 17.30 alle 19.30 (aula A102) - mercoledì 16 ora di ripasso 17.30-18.30"
     downloads:
       - testo: "Introduzione"
         urls:
@@ -19,6 +19,10 @@ sezioni:
           url: "Lezione-2_22-23.pdf"
         - nome: "Esercizi"
           url: "Esercizi-2_22-23.pdf"
+      - testo: "Lezione di recupero"
+        urls:
+   #     - nome: "Download"
+   #       url: "Lezione-2_22-23.pdf"
       - testo: "Lezione 3 - tabelle e figure"
         urls:
     #    - nome: "Teoria"
