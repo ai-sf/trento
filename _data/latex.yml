@@ -22,7 +22,7 @@ sezioni:
       - testo: "Lezione di recupero"
         urls:
    #     - nome: "Download"
-   #       url: "Lezione-2_22-23.pdf"
+   #       url: "Recap_22-23.pdf"
       - testo: "Lezione 3 - tabelle e figure"
         urls:
     #    - nome: "Teoria"
