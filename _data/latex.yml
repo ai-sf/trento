@@ -1,6 +1,7 @@
 sezioni:
 
   - titolo: "Corso base 2022-2023"
+    testo: " "
     downloads:
       - testo: "Introduzione"
         urls:
@@ -74,7 +75,7 @@ sezioni:
           
    
   - titolo: "Corso 2021-2022"
-    testo: "Le vecchie slide possono essere richieste via mail a giulia.morelli@ai-sf.it"
+    testo: " "
     downloads:
       - testo: "Introduzione"
         urls:
