@@ -34,13 +34,14 @@ sezioni:
           url: "Lezione-4_22-23.pdf"
         - nome: "Esercizi"
           url: "Esercizi-4_22-23.pdf"
-   - titolo: "Corso avanzato 2022"
-     testo: "venerdì 3 marzo dalle 16.30 alle 18.30 (aula A204)"
-     downloads:
-       - testo: "Lezione avanzata - gestire una tesi con Latex"
-         urls:
-         - nome: "Download"
-           url: "Lezione4bis_22-23.pdf"
+
+  - titolo: "Corso avanzato 2022"
+    testo: "venerdì 3 marzo dalle 16.30 alle 18.30 (aula A204)"
+    downloads:
+      - testo: "Lezione avanzata - gestire una tesi con Latex"
+        urls:
+        - nome: "Download"
+          url: "Lezione4bis_22-23.pdf"
 
 
   - titolo: "Fonti utili"
