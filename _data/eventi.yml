@@ -1,0 +1,30 @@
+sections:
+  - events:
+    - image: beer_phys.png
+      title: 
+      text: "Torna il tanto atteso Beer & Physics!<br>
+              Il prof. F. Dalfovo e il prof. S. Stringari con la ricercatrice A. Berti ci racconteranno dei condensati Bose-Einstein, in onore del prof. L. Pitaevskii."
+      linktxt: Beer & Physics 2023
+    - image: latex_avanzato.png
+      title: 
+      text: "Il nostro corso di LaTeX si concluderà con l'ultima lezione il venerdì 3 Marzo, alle 16:30.
+              Andremo a vedere argomenti più avanzati rispetto a quelli che abbiamo trattato fino ad ora.
+              Ricordiamo che chi è iscritto ad AISF può partecipare alla lezione in presenza.
+              Se volete seguire la lezione basta iscriversi al link nelle storie o in bio."
+      linktxt: Corso Latex Avanzato
+      link: https://ai-sf.it/trento/latex
+    - image: tiqit_loc.png
+      title: 
+      text: " TIQIT, the Trento-Innbsruck Quantum Information Tour, is finally back. <br>
+              This year it will take place from February 27th to March 2nd.
+              There will be talks and visits to laboratories."
+      linktxt: Tiqit 2023
+      link: https://ai-sf.it/tiqit23
+    - image: beer_phys_dec.png
+      title: 
+      text: "È tornato il Beer & Physics!<br>
+              Il prof. G. Lattanzi e il prof. R. Potestio ci racconteranno di approcci computazionali alla biofisica e alla materia soffice."
+      linktxt: Beer & Physics 2022
+      link: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+
+
