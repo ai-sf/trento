@@ -26,5 +26,9 @@ sections:
               Il prof. G. Lattanzi e il prof. R. Potestio ci racconteranno di approcci computazionali alla biofisica e alla materia soffice."
       linktxt: Beer & Physics 2022
       link: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+    - image: nobel.png
+      title: 
+      text: "Evento nobel."
+      linktxt: Nobel 2022
 
 
