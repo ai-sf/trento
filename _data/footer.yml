@@ -14,3 +14,7 @@ connect:
 #    url: https://twitter.com/aisf_fisica
   - name: Instagram
     url: https://instagram.com/aisftrento?igshid=ZDdkNTZiNTM=
+
+creator:
+  - name: Giorgio Micaglio
+    mail: giorgio.micaglio@studenti.unitn.it
