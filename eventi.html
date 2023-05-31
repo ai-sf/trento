@@ -4,7 +4,43 @@ title: Eventi locali
 ---
 
     <h2>Prossimamente</h2>
-        <p>Non ci sono eventi in programma. Stay tuned!</p>
+    {% for section in site.data.eventi.sections %}
+    <div class="section">
+        <div class="row">
+            <div class="col s12 m12">
+            {% if section.events %}
+                <div class="eventContainer" style="display:flex; flex-wrap:wrap; justify-content:space-between; align-content: flex-start;">
+                    {% assign noTodoEvents = true %}
+                    {% for event in section.events %}
+                        {% if event.todo == "y" %}
+                            {% assign noTodoEvents = false %}
+                            <div class="card" style="max-width: 48%; display: flex; flex-direction: column; justify-content: space-between; min-width: 200px; align-self: start;">
+                                <div>
+                                    <div class="card-image">
+                                        <img src="{{ site.url }}/img/{{ event.image }}">
+                                        <span class="card-title">{{ event.title }}</span>
+                                    </div>
+                                    <div class="card-content">
+                                        <p>{{ event.text }}</p>
+                                    </div>
+                                </div>
+                                <div class="card-action">
+                                    <a href={{ event.link }}>{{ event.linktxt }}</a>
+                                </div>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                    {% if noTodoEvents %}
+                        <p>Non ci sono eventi in programma. Stay tuned!</p>
+                    {% endif %}
+                </div>
+            {% endif %}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+    <!--<p>Non ci sono eventi in programma. Stay tuned!</p>-->
+    
     <h2>Eventi recenti</h2>
     {% for section in site.data.eventi.sections %}
     <div class="section">
@@ -13,20 +49,22 @@ title: Eventi locali
             {% if section.events %}
                 <div class="eventContainer" style="display:flex; flex-wrap:wrap; justify-content:space-between; align-content: flex-start;">
                     {% for event in section.events %}
-                        <div class="card" style="max-width: 48%; display: flex; flex-direction: column; justify-content: space-between; min-width: 200px; align-self: start;">
-                            <div>
-                                <div class="card-image">
-                                    <img src="{{ site.url }}/img/{{ event.image }}">
-                                    <span class="card-title">{{ event.title }}</span>
+                        {% if event.todo != "y" %}
+                            <div class="card" style="max-width: 48%; display: flex; flex-direction: column; justify-content: space-between; min-width: 200px; align-self: start;">
+                                <div>
+                                    <div class="card-image">
+                                        <img src="{{ site.url }}/img/{{ event.image }}">
+                                        <span class="card-title">{{ event.title }}</span>
+                                    </div>
+                                    <div class="card-content">
+                                        <p>{{ event.text }}</p>
+                                    </div>
                                 </div>
-                                <div class="card-content">
-                                    <p>{{ event.text }}</p>
+                                <div class="card-action">
+                                    <a href={{ event.link }}>{{ event.linktxt }}</a>
                                 </div>
                             </div>
-                            <div class="card-action">
-                                <a href={{ event.link }}>{{ event.linktxt }}</a>
-                            </div>
-                        </div>
+                        {% endif %}
                     {% endfor %}
                 </div>
             {% endif %}
