@@ -4,7 +4,7 @@ sections:
       title:
       text: "La stessa sera del seminario sulla collaborazione EHT (06/06/2023) si terrà una chiacchierata nella piazzetta de La Bookique di Trento con speaker la prof.ssa Mariafelicita De Laurentis e moderatori il prof. Albino Perego e il prof. Massimiliano Rinaldi."
       linktxt: Beer & Physics EHT
-      todo: "y"
+      todo: "n"
     - image: EHT_event.jpeg
       title:
       text: "Martedì 06/06 in aula A105 si terrà un seminario centrato sulla collaborazione EHT con speaker la prof.ssa Mariafelicita De Laurentis.
@@ -12,7 +12,7 @@ sections:
             Potete registrarvi per prenotare un posto al seguente <a href='https://forms.gle/86ZcR862o3ryCRTL7'>link</a>."
       linktxt: Iscriviti!
       link: https://forms.gle/86ZcR862o3ryCRTL7
-      todo: "y"
+      todo: "n"
     - image: beer_phys.png
       title: 
       text: "Torna il tanto atteso Beer & Physics!<br>
