@@ -1,7 +1,7 @@
 #- text: Home
 #  url: https://ai-sf.it/trento/
-#- text: Chi siamo
-#  url: comitato
+- text: Chi siamo
+  url: comitato
 - text: Eventi Locali
   url: eventi
 - text: Corso Latex
