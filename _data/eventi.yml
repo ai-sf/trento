@@ -1,5 +1,12 @@
 sections:
   - events:
+    - image: unitn_students_day.png
+      title:
+      text: "Ti sei mai chiesto quante sono le associazioni universitarie che operano a Trento?
+              Ti sei mai chiesto qual è l'elemento che le diversifica e ciò che fanno concretamente⁉ Con il contributo economico di Opera Universitaria, dell’Università di Trento e del Piano d’Ambito della Provincia Autonoma di Trento 'TAUT - Tavolo Associazioni Universitarie Trentine.'"
+      linktxt: UniTrento Students Day
+      link: https://www.instagram.com/p/Cxn6o4-LNKA/
+      todo: "y"
     - image: analog_gravity.png
       title:
       text: "In questo incontro prenderemo spunto dal workshop all'ECT* sui modelli analoghi di gravità e la simulazione quantistica di problemi gravitazionali in sistemi ottici e fluidi quantistici, e spazieremo attraverso gli sviluppi più interessanti della ricerca contemporanea in gravità, cosmologia, astrofisica, fisica quantistica e fisica della materia condensata."
