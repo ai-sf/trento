@@ -1,4 +1,11 @@
----
-layout: page
-title:  comitato
----
+sezioni:
+  - titolo: "Chi siamo"
+    testo: "Sezione in aggiornamento. Presto pubblicati i nuovi ruoli del comitato locale."
+
+  - titolo: "Documenti"
+    testo: "Questo è il regolamento interno del comitato."
+    downloads:
+      - testo: "Regolamento Interno AISF Trento"
+        urls:
+        - nome: "Download"
+          url: "Regolamento_Interno_Trento.pdf"
