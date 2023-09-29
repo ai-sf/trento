@@ -1,52 +1,10 @@
 sezioni:
 
-  - titolo: "Corso base 2022-2023"
-    testo: " "
-    downloads:
-      - testo: "Introduzione"
-        urls:
-        - nome: "Download"
-          url: "Introduzione_22-23.pdf"
-      - testo: "Lezione 1 - struttura del testo"
-        urls:
-        - nome: "Teoria"
-          url: "Lezione-1_22-23.pdf"
-        - nome: "Esercizi"
-          url: "Esercizi-1_22-23.pdf"
-      - testo: "Lezione 2 - ambienti matematici"
-        urls:
-        - nome: "Teoria"
-          url: "Lezione-2_22-23.pdf"
-        - nome: "Esercizi"
-          url: "Esercizi-2_22-23.pdf"
-      - testo: "Lezione di recupero"
-        urls:
-        - nome: "Download"
-          url: "Recap_22-23.pdf"
-      - testo: "Lezione 3 - tabelle e figure"
-        urls:
-        - nome: "Teoria"
-          url: "Lezione-3_22-23.pdf"
-        - nome: "Esercizi"
-          url: "Esercizi-3_22-23.pdf"
-      - testo: "Lezione 4 - varie ed eventuali"
-        urls:
-        - nome: "Teoria"
-          url: "Lezione-4_22-23.pdf"
-        - nome: "Esercizi"
-          url: "Esercizi-4_22-23.pdf"
-
-  - titolo: "Corso avanzato 2022-2023"
-    testo: "venerdì 3 marzo dalle 16.30 alle 18.30 (aula A204)"
-    downloads:
-      - testo: "Lezione avanzata - gestire una tesi con Latex"
-        urls:
-        - nome: "Download"
-          url: "Lezione4bis_22-23.pdf"
-
+  - titolo: "Corso base 2023-2024"
+    testo: "Sezione in continuo aggiornamento. A presto disponibile."
 
   - titolo: "Fonti utili"
-    testo: "ulteriori approfondimenti consigliati"
+    testo: "Qui potete trovare ulteriori approfondimenti consigliati. Divertitevi con LaTeX!"
     downloads:
       - testo: "L'arte di scrivere con Latex - Pantieri, Gordini"
         urls:
@@ -72,40 +30,47 @@ sezioni:
         urls:
         - nome: "Download"
           url: "Latex_tesi.pdf"
-          
-   
-  - titolo: "Corso 2021-2022"
-    testo: " "
-    downloads:
-      - testo: "Introduzione"
-        urls:
-        - nome: "Download"
-          url: "Introduzione.pdf"
-      - testo: "Lezione 1 - struttura del testo"
-        urls:
-        - nome: "Teoria"
-          url: "Lezione_1.pdf"
-        - nome: "Esercizi"
-          url: "Esercizi_1.pdf"
-      - testo: "Lezione 2 - ambienti matematici"
-        urls:
-        - nome: "Teoria"
-          url: "Lezione_2.pdf"
-        - nome: "Esercizi"
-          url: "Esercizi_2.pdf"
-      - testo: "Lezione 3 - tabelle e figure"
-        urls:
-        - nome: "Teoria"
-          url: "Lezione_3.pdf"
-        - nome: "Esercizi"
-          url: "Esercizi_3.pdf"
-      - testo: "Lezione 4 - varie ed eventuali"
-        urls:
-        - nome: "Teoria"
-          url: "Lezione_4.pdf"
-        - nome: "Esercizi"
-          url: "Esercizi_4.pdf"
-      - testo: "Lezione avanzata - gestire una tesi con Latex"
-        urls:
-        - nome: "Download"
-          url: "Lezione_4bis.pdf"
+
+# - titolo: "Corso base 2022-2023"
+  #   testo: " "
+  #   downloads:
+  #     - testo: "Introduzione"
+  #       urls:
+  #       - nome: "Download"
+  #         url: "Introduzione_22-23.pdf"
+  #     - testo: "Lezione 1 - struttura del testo"
+  #       urls:
+  #       - nome: "Teoria"
+  #         url: "Lezione-1_22-23.pdf"
+  #       - nome: "Esercizi"
+  #         url: "Esercizi-1_22-23.pdf"
+  #     - testo: "Lezione 2 - ambienti matematici"
+  #       urls:
+  #       - nome: "Teoria"
+  #         url: "Lezione-2_22-23.pdf"
+  #       - nome: "Esercizi"
+  #         url: "Esercizi-2_22-23.pdf"
+  #     - testo: "Lezione di recupero"
+  #       urls:
+  #       - nome: "Download"
+  #         url: "Recap_22-23.pdf"
+  #     - testo: "Lezione 3 - tabelle e figure"
+  #       urls:
+  #       - nome: "Teoria"
+  #         url: "Lezione-3_22-23.pdf"
+  #       - nome: "Esercizi"
+  #         url: "Esercizi-3_22-23.pdf"
+  #     - testo: "Lezione 4 - varie ed eventuali"
+  #       urls:
+  #       - nome: "Teoria"
+  #         url: "Lezione-4_22-23.pdf"
+  #       - nome: "Esercizi"
+  #         url: "Esercizi-4_22-23.pdf"
+
+  # - titolo: "Corso avanzato 2022-2023"
+  #   testo: "venerdì 3 marzo dalle 16.30 alle 18.30 (aula A204)"
+  #   downloads:
+  #     - testo: "Lezione avanzata - gestire una tesi con Latex"
+  #       urls:
+  #       - nome: "Download"
+  #         url: "Lezione4bis_22-23.pdf"
