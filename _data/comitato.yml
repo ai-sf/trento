@@ -1,11 +1,15 @@
 sezioni:
-  - titolo: "Chi siamo"
+  - titolo: "Chi Siamo"
     testo: "Sezione in aggiornamento. Presto pubblicati i nuovi ruoli del comitato locale."
 
   - titolo: "Documenti"
-    testo: "Questo è il regolamento interno del comitato."
+    testo: "Qui potete trovare i documenti relativi al comitato locale di AISF Trento. Tra questi vi è presente il regolamento interno."
     downloads:
       - testo: "Regolamento Interno AISF Trento"
         urls:
         - nome: "Download"
           url: "Regolamento_Interno_Trento.pdf"
+      - testo: "Volantino verticale"
+        urls:
+        - nome: "Download"
+          url: "flyer.pdf"

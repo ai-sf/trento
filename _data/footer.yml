@@ -3,13 +3,13 @@ descr: Comitato Nazionale dell'International Association of Physics Students (IA
 
 contact:
   - name: Presidente
-    mail: nicolaarsenio.lodi@ai-sf.it
+    mail: anna.do@ai-sf.it
   - name: Comitato Locale
     mail: trento@ai-sf.it
 
 connect:
-  - name: Facebook
-    url: https://www.facebook.com/AisfTrento/
+  # - name: Facebook
+  #   url: https://www.facebook.com/AisfTrento/
 #  - name: Twitter
 #    url: https://twitter.com/aisf_fisica
   - name: Instagram
