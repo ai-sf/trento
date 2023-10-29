@@ -1,7 +1,24 @@
 ---
 layout: page
-title:  Comitato
+title:  Chi siamo
 ---
+
+<h3>Comitato 2023-2024</h3>
+<!--Show committee roles-->
+{% for item in site.data.comitato.sezioni %}  
+  <ul class="collection">
+    {% for membro in item.membri %}
+        <li class="collection-item avatar">
+          <img src="{{ membro.img }}" alt="" class="circle">
+          <span class="title">{{ membro.nome }}</span>
+          <p><i>{{ membro.ruolo }}</i><br>
+            <!-- {{ membro.descr }} -->
+          </p>
+          <div class="secondary-content"><a href="mailto:{{ membro.mail }}"><i class="fa fa-lg fa-envelope"></i></a></div>
+        </li>
+    {% endfor %}
+  </ul>
+{% endfor %}
 
 {% for section in site.data.comitato.sezioni %}
 <div class="section">

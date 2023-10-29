@@ -1,9 +1,33 @@
 sezioni:
-  - titolo: "Chi Siamo"
-    testo: "Sezione in aggiornamento. Presto pubblicati i nuovi ruoli del comitato locale."
-
+  - membri:
+    - nome: "Anna Do'"
+      img: "/img/ruoli/presidente.jpg"
+      ruolo: "Presidente"
+      #descr: "Pres."
+      mail: "anna.do@ai-sf.it"
+    - nome: "Nicola Pretto"
+      img: "/img/ruoli/vice.jpg"
+      ruolo: "Vicepresidente"
+      #descr: "Pres."
+      #mail: "nicola.pretto@studenti.unitn.it"
+    - nome: "Michele Tognoni"
+      img: "/img/ruoli/segretario.jpg"
+      ruolo: "Segretario"
+    - nome: "Giorgio Micaglio"
+      img: "/img/ruoli/IT_manager.jpg"
+      ruolo: "IT Manager"
+      mail: "giorgio.micaglio@studenti.unitn.it"
+    - nome: "Nicola Arsenio Lodi"
+      img: "/img/ruoli/coordinatore.jpg"
+      ruolo: "Coordinatore"  
+      #mail: "nicola.lodi@ai-sf.it"
+    - nome: "Giulia Testa"
+      img: "/img/ruoli/PR_manager.jpg"
+      ruolo: "PR Manager"
+      mail: "giulia.testa-2@studenti.unitn.it"
+    
   - titolo: "Documenti"
-    testo: "Qui potete trovare i documenti relativi al comitato locale di AISF Trento. Tra questi vi è presente il regolamento interno."
+    testo: "Qui potete trovare i documenti relativi al comitato locale di AISF Trento. Tra questi vi è presente il regolamento interno, elemento fondante del comitato."
     downloads:
       - testo: "Regolamento Interno AISF Trento"
         urls:
