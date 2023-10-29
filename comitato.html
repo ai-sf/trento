@@ -9,7 +9,7 @@ title:  Chi siamo
   <ul class="collection">
     {% for membro in item.membri %}
         <li class="collection-item avatar">
-          <img src="{{ membro.img }}" alt="" class="circle">
+          <img src="{{ site.url }}{{ membro.img }}" alt="" class="circle">
           <span class="title">{{ membro.nome }}</span>
           <p><i>{{ membro.ruolo }}</i><br>
             <!-- {{ membro.descr }} -->
