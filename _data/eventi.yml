@@ -1,9 +1,15 @@
 sections:
   - events:
+    - image: latex_flyer.png
+      title: 
+      text: "Come da tradizione, anche quest'anno terremo l'utilissimo corso di LaTeX, che darà le basi per poter scrivere con questo fondamentale strumento per la nostra carriera di fisici... e non solo!<br><br> È possibile segnarsi al corso tramite il link sottostante."
+      linktxt: Iscriviti!
+      link: https://docs.google.com/forms/d/e/1FAIpQLSe39JaM9SdMdzliLLokJSAG_PCV0dlVLKaXa4QU0KVFElOoXg/viewform?usp=sf_link
+      todo: "y"
     - image: unitn_students_day.png
       title:
       text: "Ti sei mai chiesto quante sono le associazioni universitarie che operano a Trento?
-              Ti sei mai chiesto qual è l'elemento che le diversifica e ciò che fanno concretamente⁉ Con il contributo economico di Opera Universitaria, dell’Università di Trento e del Piano d’Ambito della Provincia Autonoma di Trento 'TAUT - Tavolo Associazioni Universitarie Trentine.'"
+              Ti sei mai chiesto qual è l'elemento che le diversifica e ciò che fanno concretamente⁉ Con il contributo economico di Opera Universitaria, dell'Università di Trento e del Piano d'Ambito della Provincia Autonoma di Trento 'TAUT - Tavolo Associazioni Universitarie Trentine.'"
       linktxt: UniTrento Students Day
       link: https://www.instagram.com/p/Cxn6o4-LNKA/
       todo: "n"
