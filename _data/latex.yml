@@ -3,6 +3,20 @@ sezioni:
   - titolo: "Corso base 2023-2024"
     testo: "Sezione in continuo aggiornamento. A presto disponibile."
 
+  - titolo: "Corso base 2023-2024"
+    testo: " "
+    downloads:
+      - testo: "Introduzione"
+        urls:
+        - nome: "Download"
+          url: "introduzione_23-24.pdf"
+      - testo: "Lezione 1 - struttura del testo"
+        urls:
+        - nome: "Teoria"
+          url: "lezione1_23-24.pdf"
+        - nome: "Esercizi"
+          url: "esercizi1_23-24.pdf"  
+
   - titolo: "Fonti utili"
     testo: "Qui potete trovare ulteriori approfondimenti consigliati. Divertitevi con LaTeX!"
     downloads:
@@ -31,19 +45,6 @@ sezioni:
         - nome: "Download"
           url: "Latex_tesi.pdf"
 
-# - titolo: "Corso base 2022-2023"
-  #   testo: " "
-  #   downloads:
-  #     - testo: "Introduzione"
-  #       urls:
-  #       - nome: "Download"
-  #         url: "Introduzione_22-23.pdf"
-  #     - testo: "Lezione 1 - struttura del testo"
-  #       urls:
-  #       - nome: "Teoria"
-  #         url: "Lezione-1_22-23.pdf"
-  #       - nome: "Esercizi"
-  #         url: "Esercizi-1_22-23.pdf"
   #     - testo: "Lezione 2 - ambienti matematici"
   #       urls:
   #       - nome: "Teoria"
