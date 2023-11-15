@@ -51,29 +51,6 @@ sezioni:
         - nome: "Download"
           url: "Latex_tesi.pdf"
 
-  #     - testo: "Lezione 2 - ambienti matematici"
-  #       urls:
-  #       - nome: "Teoria"
-  #         url: "Lezione-2_22-23.pdf"
-  #       - nome: "Esercizi"
-  #         url: "Esercizi-2_22-23.pdf"
-  #     - testo: "Lezione di recupero"
-  #       urls:
-  #       - nome: "Download"
-  #         url: "Recap_22-23.pdf"
-  #     - testo: "Lezione 3 - tabelle e figure"
-  #       urls:
-  #       - nome: "Teoria"
-  #         url: "Lezione-3_22-23.pdf"
-  #       - nome: "Esercizi"
-  #         url: "Esercizi-3_22-23.pdf"
-  #     - testo: "Lezione 4 - varie ed eventuali"
-  #       urls:
-  #       - nome: "Teoria"
-  #         url: "Lezione-4_22-23.pdf"
-  #       - nome: "Esercizi"
-  #         url: "Esercizi-4_22-23.pdf"
-
   # - titolo: "Corso avanzato 2022-2023"
   #   testo: "venerdì 3 marzo dalle 16.30 alle 18.30 (aula A204)"
   #   downloads:
