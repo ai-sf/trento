@@ -1,21 +1,27 @@
 sezioni:
 
-  - titolo: "Corso base 2023-2024"
-    testo: "Sezione in continuo aggiornamento. A presto disponibile."
+  # - titolo: "Corso base 2023-2024"
+  #   testo: "Sezione in continuo aggiornamento. A presto disponibile."
 
   - titolo: "Corso base 2023-2024"
     testo: " "
     downloads:
       - testo: "Introduzione"
         urls:
-        - nome: "Download"
+        - nome: "Introduzione"
           url: "introduzione_23-24.pdf"
       - testo: "Lezione 1 - struttura del testo"
         urls:
         - nome: "Teoria"
           url: "lezione1_23-24.pdf"
         - nome: "Esercizi"
-          url: "esercizi1_23-24.pdf"  
+          url: "esercizi1_23-24.pdf" 
+      - testo: "Lezione 2 - ambienti matematici"
+        urls:
+        - nome: "Teoria"
+          url: "lezione2_23-24.pdf"
+        - nome: "Esercizi"
+          url: "esercizi2_23-24.pdf"   
 
   - titolo: "Fonti utili"
     testo: "Qui potete trovare ulteriori approfondimenti consigliati. Divertitevi con LaTeX!"
