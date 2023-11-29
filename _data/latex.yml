@@ -27,7 +27,13 @@ sezioni:
         - nome: "Teoria"
           url: "lezione3_23-24.pdf"
         - nome: "Esercizi"
-          url: "esercizi3_23-24.pdf"    
+          url: "esercizi3_23-24.pdf"
+      - testo: "Lezione 4 - extra"
+        urls:
+        - nome: "Teoria"
+          url: "lezione4_23-24.pdf"
+        - nome: "Esercizi"
+          url: "esercizi4_23-24.pdf"    
 
   - titolo: "Fonti utili"
     testo: "Qui potete trovare ulteriori approfondimenti consigliati. Divertitevi con LaTeX!"
