@@ -1,11 +1,16 @@
 sections:
   - events:
+    - image: nobel23.jpeg
+      title: 
+      text: "Mercoledì 6 dicembre alle 17:30 vi aspettiamo in Aula A105 (Povo) con il Prof. Ferrari e il Prof. Zanatta che ci spiegheranno i segreti della Fisica dell'Attosecondo, che ha fatto guadagnare il Nobel di quest'anno a P. Agostini, F. Krausz e A. L'Huillier."
+      linktxt: Nobel 2023
+      todo: "y"
     - image: latex_flyer.png
       title: 
       text: "Come da tradizione, anche quest'anno terremo l'utilissimo corso di LaTeX, che darà le basi per poter scrivere con questo fondamentale strumento per la nostra carriera di fisici... e non solo!<br><br> È possibile segnarsi al corso tramite il link sottostante."
       linktxt: Iscriviti!
       link: https://docs.google.com/forms/d/e/1FAIpQLSe39JaM9SdMdzliLLokJSAG_PCV0dlVLKaXa4QU0KVFElOoXg/viewform?usp=sf_link
-      todo: "y"
+      todo: "n"
     - image: unitn_students_day.png
       title:
       text: "Ti sei mai chiesto quante sono le associazioni universitarie che operano a Trento?
