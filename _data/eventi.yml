@@ -1,5 +1,10 @@
 sections:
   - events:
+    - image: B&Pdec23.jpg
+      title: 
+      text: "Giovedì 14 dicembre alle ore 20:00 siete tutti invitati in Bookique per incontrare il Prof. W.J. Weber e il PhD student V. Chiavegato all'evento 'L'universo dei buchi neri supermassivi'.<br> I nostri ospiti ci parleranno del loro lavoro di ricerca, per scoprire la fisica della gravitazione a bassa frequenza e le tecniche sperimentali più all'avanguardia, come il grande progetto LISA."
+      todo: "y"
+      linktxt: Beer & Physics 2023
     - image: tiqit24.jpeg
       title:
       text: "Calling all students who want to join this amazing opportunity to dive into the world of physics research by visiting two cutting edge institutions, the University of Trento and the University of Innsbruck. <br>By joining us, you will visit innovative laboratories and attend enthralling lessons about Bose-Einstein Condensation, Nanoscience, Quantum Optics and Quantum Information. More info in the link to the website down below."
