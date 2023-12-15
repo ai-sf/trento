@@ -3,7 +3,7 @@ sections:
     - image: B&Pdec23.jpg
       title: 
       text: "Giovedì 14 dicembre alle ore 20:00 siete tutti invitati in Bookique per incontrare il Prof. W.J. Weber e il PhD student V. Chiavegato all'evento 'L'universo dei buchi neri supermassivi'.<br> I nostri ospiti ci parleranno del loro lavoro di ricerca, per scoprire la fisica della gravitazione a bassa frequenza e le tecniche sperimentali più all'avanguardia, come il grande progetto LISA."
-      todo: "y"
+      todo: "n"
       linktxt: Beer & Physics 2023
     - image: tiqit24.jpeg
       title:
