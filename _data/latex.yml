@@ -33,7 +33,15 @@ sezioni:
         - nome: "Teoria"
           url: "lezione4_23-24.pdf"
         - nome: "Esercizi"
-          url: "esercizi4_23-24.pdf"    
+          url: "esercizi4_23-24.pdf"  
+
+  - titolo: "Corso avanzato 2023-2024"
+    testo: ""
+    downloads:
+      - testo: "Lezione avanzata - gestire una tesi con Latex"
+        urls:
+        - nome: "Download"
+          url: "Lezione4bis_22-23.pdf"  
 
   - titolo: "Fonti utili"
     testo: "Qui potete trovare ulteriori approfondimenti consigliati. Divertitevi con LaTeX!"
@@ -63,10 +71,4 @@ sezioni:
         - nome: "Download"
           url: "Latex_tesi.pdf"
 
-  # - titolo: "Corso avanzato 2022-2023"
-  #   testo: "venerdì 3 marzo dalle 16.30 alle 18.30 (aula A204)"
-  #   downloads:
-  #     - testo: "Lezione avanzata - gestire una tesi con Latex"
-  #       urls:
-  #       - nome: "Download"
-  #         url: "Lezione4bis_22-23.pdf"
+  
