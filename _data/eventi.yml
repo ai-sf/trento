@@ -10,7 +10,7 @@ sections:
       text: "Calling all students who want to join this amazing opportunity to dive into the world of physics research by visiting two cutting edge institutions, the University of Trento and the University of Innsbruck. <br>By joining us, you will visit innovative laboratories and attend enthralling lessons about Bose-Einstein Condensation, Nanoscience, Quantum Optics and Quantum Information. More info in the link to the website down below."
       linktxt: TIQIT 2024
       link: https://ai-sf.it/tiqit24/
-      todo: "y"
+      todo: "n"
     - image: nobel23.jpeg
       title: 
       text: "Mercoledì 6 dicembre alle 17:30 vi aspettiamo in Aula A105 (Povo) con il Prof. Ferrari e il Prof. Zanatta che ci spiegheranno i segreti della Fisica dell'Attosecondo, che ha fatto guadagnare il Nobel di quest'anno a P. Agostini, F. Krausz e A. L'Huillier."
