@@ -1,7 +1,7 @@
 #- text: Home
 #  url: https://ai-sf.it/trento/
-- text: TIQIT24
-  url: https://ai-sf.it/tiqit24/
+#- text: TIQIT24
+#  url: https://ai-sf.it/tiqit24/
 - text: Chi Siamo
   url: comitato
 - text: Eventi Locali

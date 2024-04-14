@@ -1,5 +1,16 @@
 sections:
   - events:
+    - image: bp-guella.jpg
+      title: 
+      text: "Torna il Beer & Physics! Per questa edizione vi aspettiamo in @bookique.trento per un interessante incontro sulla meteorologia e il cambiamento climatico, per buttare uno sguardo sulle possibili soluzioni del futuro. A parlarcene saranno la prof.ssa Bordoni, il prof. Tosi e il Prof. Guella, speaker per questa serata"
+      todo: "n"
+      linktxt: Beer & Physics 2024
+    - image: latex_flyer_adv.png
+      title: 
+      text: "Vi segnaliamo questa lezione, che rientra nel ciclo delle lezioni del corso di Latex, rivolta agli studenti del terzo anno (e non solo) per imparare a scrivere al meglio la tesi! Non perdetevelo!!"
+      linktxt: Corso LaTeX avanzato
+      #link: https://docs.google.com/forms/d/e/1FAIpQLSe39JaM9SdMdzliLLokJSAG_PCV0dlVLKaXa4QU0KVFElOoXg/viewform?usp=sf_link
+      todo: "n"
     - image: B&Pdec23.jpg
       title: 
       text: "Giovedì 14 dicembre alle ore 20:00 siete tutti invitati in Bookique per incontrare il Prof. W.J. Weber e il PhD student V. Chiavegato all'evento 'L'universo dei buchi neri supermassivi'.<br> I nostri ospiti ci parleranno del loro lavoro di ricerca, per scoprire la fisica della gravitazione a bassa frequenza e le tecniche sperimentali più all'avanguardia, come il grande progetto LISA."
