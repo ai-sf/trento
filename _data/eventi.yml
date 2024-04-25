@@ -1,5 +1,36 @@
 sections:
   - events:
+    - image: git.jpg
+      title: 
+      text: "Nelle giornate di giovedì 2-9-16 maggio si terrà la prima edizione del corso Git & GitHub organizzato da AISF Trento. Il corso è aperto a tutti per la prima lezione, mentre è riservato agli iscritti AISF per la seconda e la terza."
+      todo: "y"
+      linktxt: Corso Git & GitHub
+    - image: nuclear.jpg
+      title: 
+      text: "ELSA Trento e AISF Trento vi aspettano numerosi al seminario dal titolo “Energia nucleare. Arma o risorsa?”
+            <br>
+            📆 Mercoledì 8 maggio 2024
+            ⏱️ Dalle 15 alle 18
+            📍 Auditorium del Dipartimento di Lettere e Filosofia - Via Gar, 14 Trento 
+            <br>
+            🎙️ Interverranno:
+
+            - Prof. Manica | Diritto dell’ Energia, Facoltà di
+            Giurisprudenza di Trento
+            - Prof. Taioli | Dipartimento di Fisica di Trento, Ricercatore ECT*
+
+            - Prof. Pertile | Diritto Internazionale dei conflitti armati, Facoltà di Giurisprudenza di Trento
+            - Prof. Pederiva | Dipartimento di Fisica di Trento, Direttore TIFPA"
+      todo: "y"
+      linktxt: Nuclear
+    - image: donne.jpg
+      title: 
+      text: "La scienza non ha genere - tavola rotonda sul tema della donne nella fisica <br>
+            📆 Lunedì 6 maggio 2024
+            ⏱️ 20:30
+            📍 Sala conferenze Fondazione CARITRO - Via Calepina, 1 Trento "
+      todo: "y"
+      linktxt: La scienza non ha genere
     - image: bp-guella.jpg
       title: 
       text: "Torna il Beer & Physics! Per questa edizione vi aspettiamo in @bookique.trento per un interessante incontro sulla meteorologia e il cambiamento climatico, per buttare uno sguardo sulle possibili soluzioni del futuro. A parlarcene saranno la prof.ssa Bordoni, il prof. Tosi e il Prof. Guella, speaker per questa serata"
