@@ -22,3 +22,7 @@ sezioni:
         urls:
         - nome: "Download"
           url: "progit.pdf"
+      - testo: "Bash Reference Manual - Chet Ramey, Brian Fox"
+        urls:
+        - nome: "Download"
+          url: "bash.pdf"
