@@ -8,5 +8,7 @@
   url: eventi
 - text: Corso LaTeX
   url: latex
+- text: Corso Git
+  url: git
 - text: AISF
   url: http://www.ai-sf.it

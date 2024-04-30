@@ -1,0 +1,24 @@
+sezioni:
+  - titolo: "Corso Git & GitHub 2024"
+    testo: " "
+    downloads:
+      - testo: "Lezione 1 - Introduzione"
+        # urls:
+        # - nome: "Lezione 1"
+        #   url: ""
+      # - testo: "Lezione 2 - Funzioni e branch"
+      #   # urls:
+      #   # - nome: "Lezione 1"
+      #   #   url: ""
+      # - testo: "Lezione 3 - GitHub e conflitti"
+      #   # urls:
+      #   # - nome: "Lezione 1"
+      #   #   url: ""
+  
+  - titolo: "Fonti utili"
+    testo: "Qui potete trovare ulteriori approfondimenti consigliati. Divertitevi con Git!"
+    downloads:
+      - testo: "Pro Git Book - Scott Chacon, Ben Straub"
+        urls:
+        - nome: "Download"
+          url: "progit.pdf"
