@@ -3,9 +3,11 @@ sezioni:
     testo: " "
     downloads:
       - testo: "Lezione 1 - Introduzione"
-        # urls:
-        # - nome: "Lezione 1"
-        #   url: ""
+        urls:
+        - nome: "Teoria"
+          url: "git/LEZIONE_1__Intro_a_git_e_github.pdf"
+        - nome: "Esercizi"
+          url: "git/es_git_lez1.pdf"
       # - testo: "Lezione 2 - Funzioni e branch"
       #   # urls:
       #   # - nome: "Lezione 1"
