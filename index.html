@@ -3,14 +3,40 @@ layout: default
 ---
 {% include banner.html %}
 
-    <!-- paragraph -->
-    <div class="section">
-      <div class="row">
-        <div class="col s8 offset-s2">
-          <p class="center light">{{ site.data.home.paragraph }}</p>
-        </div>
-      </div>
+<!-- paragraph -->
+<div class="section">
+  <div class="row">
+    <div class="col s8 offset-s2">
+      <p class="center light">{{ site.data.home.paragraph }}</p>
     </div>
-
   </div>
 </div>
+
+<!-- cards -->
+<div class="section">
+  <div class="row"></div>
+    <div class="col s12 m12">
+      <div class="eventContainer" style="display:flex; flex-wrap:wrap; justify-content:space-around; align-content: flex-start;">
+        {% for page in site.data.menu %}
+            <div class="card">
+              <div>
+                <div class="card-image">
+                  <!-- <img src="{{ site.url }}/img/eventi/{{ event.image }}"> -->
+                  <span class="card-title">{{ page.text }}</span>
+                </div>
+                <div class="card-content">
+                  <!-- <p>{{ page.text }}</p> -->
+                  <a href={{ page.url }}>{{ page.text }}</a>
+                </div>
+              </div>
+              <!-- <div class="card-action">
+                <a href={{ event.link }}>{{ event.linktxt }}</a>
+              </div> -->
+            </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+
