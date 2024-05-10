@@ -21,7 +21,7 @@ sections:
 
             - Prof. Pertile | Diritto Internazionale dei conflitti armati, Facoltà di Giurisprudenza di Trento
             - Prof. Pederiva | Dipartimento di Fisica di Trento, Direttore TIFPA"
-      todo: "y"
+      todo: "n"
       linktxt: Nuclear
     - image: donne.jpg
       title: 
@@ -29,7 +29,7 @@ sections:
             📆 Lunedì 6 maggio 2024
             ⏱️ 20:30
             📍 Sala conferenze Fondazione CARITRO - Via Calepina, 1 Trento "
-      todo: "y"
+      todo: "n"
       linktxt: La scienza non ha genere
     - image: bp-guella.jpg
       title: 
