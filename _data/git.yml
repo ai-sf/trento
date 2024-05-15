@@ -14,10 +14,12 @@ sezioni:
           url: "git/Lezione_2___comandi_base_di_GIT.pdf"
         - nome: "Esercizi"
           url: "git/es_git_lez2.pdf"
-      # - testo: "Lezione 3 - GitHub e conflitti"
-      #   # urls:
-      #   # - nome: "Lezione 1"
-      #   #   url: ""
+      - testo: "Lezione 3 - Merge, remoto e collaborazione"
+        urls:
+        - nome: "Teoria"
+          url: "git/lezione3.pdf"
+        - nome: "Esercizi"
+          url: "git/es_git_lez3.pdf"
   
   - titolo: "Fonti utili"
     testo: "Qui potete trovare ulteriori approfondimenti consigliati. Divertitevi con Git!"
