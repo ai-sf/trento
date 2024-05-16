@@ -26,7 +26,7 @@ sezioni:
       ruolo: "PR Manager"
       mail: "giulia.testa-2@studenti.unitn.it"
     
-  - titolo: "Documenti"
+  - titolo: "Documenti comitato locale"
     testo: "Qui potete trovare i documenti relativi al comitato locale di AISF Trento. Tra questi vi è presente il regolamento interno, elemento fondante del comitato."
     downloads:
       - testo: "Regolamento Interno AISF Trento"
@@ -37,3 +37,19 @@ sezioni:
         urls:
         - nome: "Download"
           url: "flyer.pdf"
+  
+  - titolo: "Documenti nazionali"
+    testo: "Qui potete trovare i documenti relativi ad AISF nazionale."
+    downloads:
+      - testo: "Regolamento Interno AISF"
+        urls:
+        - nome: "Download"
+          url: "Regolamento_Interno_2024.pdf"
+      - testo: "Regolamento Comitati Locali"
+        urls:
+        - nome: "Download"
+          url: "Regolamento_Comitati_Locali_2024.pdf"
+      - testo: "Statuto"
+        urls:
+        - nome: "Download"
+          url: "Statuto_APS_240419.pdf"
