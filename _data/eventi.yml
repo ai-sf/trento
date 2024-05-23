@@ -1,9 +1,14 @@
 sections:
   - events:
+    - image: dd.jpeg
+      title:
+      text: "Siete tutti invitati al DRINK & DERIVE! 🍻Questo nuovo evento del nostro comitato locale che porta a Trento un modello già proposto in altri comitati di AISF, è una gara di derivate! <br>Vi aspettiamo: <br>🗓 mercoledì 29 maggio <br>🕘 alle 20.45 <br>📍 al Simposio, via Rosmini 19"
+      todo: "y"
+      linktxt: Drink & Derive
     - image: git.jpg
       title: 
       text: "Nelle giornate di giovedì 2-9-16 maggio si terrà la prima edizione del corso Git & GitHub organizzato da AISF Trento. Il corso è aperto a tutti per la prima lezione, mentre è riservato agli iscritti AISF per la seconda e la terza."
-      todo: "y"
+      todo: "n"
       linktxt: Corso Git & GitHub
     - image: nuclear.jpg
       title: 
