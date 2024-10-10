@@ -1,6 +1,6 @@
 sezioni:
 
-  # - titolo: "Corso base 2023-2024"
+  # - titolo: "Corso base 2024-2025"
   #   testo: "Sezione in continuo aggiornamento. A presto disponibile."
 
   - titolo: "Corso base 2023-2024"
@@ -70,5 +70,10 @@ sezioni:
         urls:
         - nome: "Download"
           url: "Latex_tesi.pdf"
+      
+      - testo: "A quick guide to Latex [cheat sheet] - Richeson"
+        urls:
+        - nome: "Download"
+          url: "A_quick_guide_to_Latex.pdf"
 
   
