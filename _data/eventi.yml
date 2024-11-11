@@ -1,5 +1,64 @@
 sections:
   - events:
+    - image: B&P_nov24.jpg
+      title: 
+      text: "🍻 Ecco il primo Beer & Physics di quest'anno!
+
+            ⚛️ L'appuntamento è con il prof. Nicolò Drago e il dottorando Lorenzo Pettinari, che ci parleranno del loro ultimo studio sulla quantizzazione e ci introdurranno al loro campo di ricerca: la Fisica Matematica.
+
+            🗓 20 novembre
+            🕖 ore 20:00
+            📍 La Bookique
+
+            Non mancate!"
+      linktxt: Beer & Physics 2024
+      todo: "y"
+    - image: latex2425.jpg
+      title: 
+      text: "Anche quest'anno il nostro comitato offre il corso di base di Latex!
+
+            🧑‍💻 Dalle relazioni di laboratorio alla tesi di laurea e gli articoli scientifici, Latex è il software di videoscrittura per eccellenza tra i fisici.
+
+            📚 In queste lezioni imparerai:
+            1. struttura e impostazione di un testo;
+            2. installazione locale e collaborazione;
+            3. ambienti matematici;
+            4. tabelle e figure;
+            5. nozioni utili per la stesura delle relazioni.
+
+            Su richiesta degli studenti, abbiamo spostato le date del corso, quindi gli incontri si terranno:
+            📍 a Mesiano, aula 2F,
+            🗓 ogni Mercoledì dal 13 novembre all'11 dicembre,
+            🕖 dalle 16.30 alle 18.30.
+            Vi aspettiamo numerosi!"
+      linktxt: Latex 2024-25
+      todo: "y"
+    - image: gita.jpg
+      title: 
+      text: "🏞 Vuoi passare una giornata in compagnia e in mezzo alla natura?
+
+            🗓 Sabato 26 ottobre ci sarà la gita in montagna di AISF
+            🚍 Partiremo dall’autostazione di Trento col bus delle 7:45 per località Viote
+            🧭 Faremo un giro sul Monte Bondone: passeremo per Cima Verde ed eventualmente arriveremo fino al Cornetto
+            🏠 Il ritorno è previsto col bus delle 16:40
+            🌨 In caso di eventuali nevicate nei giorni precedenti il programma potrebbe cambiare
+            ✅️ Il percorso è adatto anche a escursionisti poco esperti
+
+            🎒 Occorrente:
+            • giacca e vestiti pesanti
+            • scarponi / scarpe da trekking
+            • acqua e pranzo al sacco
+
+            ❗️ Se vuoi partecipare, compila il modulo che trovi nel link in bio o scannerizza il QR code e inviaci il file a trento@ai-sf.it
+
+            Vi aspettiamo!"
+      linktxt: Gita in montagna
+      todo: "n"
+    - image: caccia.jpg
+      title: 
+      text: "📢 Nuovo evento per le matricole! 🏛 Sei iscritto al primo anno di Fisica? Vuoi esplorare gli spazi dove studierai e conoscere meglio i tuoi compagni di corso? 🧭 Il comitato locale dell'Associazione Italiana Studenti di Fisica (AISF) ha organizzato una caccia al tesoro a squadre! 🗓 L'appuntamento è Giovedì 26 settembre, alle 14.00, a Mesiano, nel cortile sul retro. 🔎 Seguendo gli indizi che abbiamo sparso per i dipartimenti, raggiungerete il luogo della premiazione, a Povo 0. 👥️ L'evento è gratuito e pensato appositamente per farvi familiarizzare con gli ambienti dell'università. Non è necessaria l'iscrizione. Vi aspettiamo!"
+      linktxt: Caccia al tesoro
+      todo: "n"
     - image: dd.jpeg
       title:
       text: "Siete tutti invitati al DRINK & DERIVE! 🍻Questo nuovo evento del nostro comitato locale che porta a Trento un modello già proposto in altri comitati di AISF, è una gara di derivate! <br>Vi aspettiamo: <br>🗓 mercoledì 29 maggio <br>🕘 alle 20.45 <br>📍 al Simposio, via Rosmini 19"
