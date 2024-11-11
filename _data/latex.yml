@@ -74,6 +74,6 @@ sezioni:
       - testo: "A quick guide to Latex [cheat sheet] - Richeson"
         urls:
         - nome: "Download"
-          url: "A_quick_guide_to_Latex.pdf"
+          url: "A_quick_guide_to_LaTeX.pdf"
 
   
