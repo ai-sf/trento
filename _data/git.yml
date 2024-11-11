@@ -5,21 +5,21 @@ sezioni:
       - testo: "Lezione 1 - Introduzione"
         urls:
         - nome: "Teoria"
-          url: "git/LEZIONE_1__Intro_a_git_e_github.pdf"
+          url: "LEZIONE_1__Intro_a_git_e_github.pdf"
         - nome: "Esercizi"
-          url: "git/es_git_lez1.pdf"
+          url: "es_git_lez1.pdf"
       - testo: "Lezione 2 - Comandi base di Git"
         urls:
         - nome: "Teoria"
-          url: "git/Lezione_2___comandi_base_di_GIT.pdf"
+          url: "Lezione_2___comandi_base_di_GIT.pdf"
         - nome: "Esercizi"
-          url: "git/es_git_lez2.pdf"
+          url: "es_git_lez2.pdf"
       - testo: "Lezione 3 - Merge, remoto e collaborazione"
         urls:
         - nome: "Teoria"
-          url: "git/lezione3.pdf"
+          url: "lezione3.pdf"
         - nome: "Esercizi"
-          url: "git/es_git_lez3.pdf"
+          url: "es_git_lez3.pdf"
   
   - titolo: "Fonti utili"
     testo: "Qui potete trovare ulteriori approfondimenti consigliati. Divertitevi con Git!"

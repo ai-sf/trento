@@ -3,37 +3,37 @@ sezioni:
   # - titolo: "Corso base 2024-2025"
   #   testo: "Sezione in continuo aggiornamento. A presto disponibile."
 
-  - titolo: "Corso base 2023-2024"
+  - titolo: "Corso base 2024-2025"
     testo: " "
     downloads:
       - testo: "Introduzione"
         urls:
         - nome: "Introduzione"
-          url: "introduzione_23-24.pdf"
+          url: "Introduzione_24-25.pdf"
       - testo: "Lezione 1 - struttura del testo"
         urls:
         - nome: "Teoria"
-          url: "lezione1_23-24.pdf"
+          url: "Lezione_1_24-25.pdf"
         - nome: "Esercizi"
-          url: "esercizi1_23-24.pdf" 
-      - testo: "Lezione 2 - ambienti matematici"
-        urls:
-        - nome: "Teoria"
-          url: "lezione2_23-24.pdf"
-        - nome: "Esercizi"
-          url: "esercizi2_23-24.pdf"  
-      - testo: "Lezione 3 - figure"
-        urls:
-        - nome: "Teoria"
-          url: "lezione3_23-24.pdf"
-        - nome: "Esercizi"
-          url: "esercizi3_23-24.pdf"
-      - testo: "Lezione 4 - extra"
-        urls:
-        - nome: "Teoria"
-          url: "lezione4_23-24.pdf"
-        - nome: "Esercizi"
-          url: "esercizi4_23-24.pdf"  
+          url: "Esercizi_1_24-25.pdf" 
+      # - testo: "Lezione 2 - ambienti matematici"
+      #   urls:
+      #   - nome: "Teoria"
+      #     url: "lezione2_23-24.pdf"
+      #   - nome: "Esercizi"
+      #     url: "esercizi2_23-24.pdf"  
+      # - testo: "Lezione 3 - figure"
+      #   urls:
+      #   - nome: "Teoria"
+      #     url: "lezione3_23-24.pdf"
+      #   - nome: "Esercizi"
+      #     url: "esercizi3_23-24.pdf"
+      # - testo: "Lezione 4 - extra"
+      #   urls:
+      #   - nome: "Teoria"
+      #     url: "lezione4_23-24.pdf"
+      #   - nome: "Esercizi"
+      #     url: "esercizi4_23-24.pdf"  
 
   - titolo: "Corso avanzato 2023-2024"
     testo: ""
