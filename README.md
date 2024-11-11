@@ -1,6 +1,6 @@
 # AISF Trento
 
-Official website of the event Trento Local Committee of AISF, Associazione Italiana Studenti di Fisica, built with Jekyll and materializecss.
+Official website of the Trento Local Committee of AISF, Associazione Italiana Studenti di Fisica, built with Jekyll and materializecss.
 
 ![Home](img/readme/home.png)
 
