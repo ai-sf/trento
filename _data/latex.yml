@@ -26,12 +26,12 @@ sezioni:
           url: "Lezione_2_24-25.pdf"
         - nome: "Esercizi"
           url: "Esercizi_2_24-25.pdf" 
-      # - testo: "Lezione 3 - figure"
-      #   urls:
-      #   - nome: "Teoria"
-      #     url: "lezione3_23-24.pdf"
-      #   - nome: "Esercizi"
-      #     url: "esercizi3_23-24.pdf"
+      - testo: "Lezione 3 - figure e tabelle"
+        urls:
+        - nome: "Teoria"
+          url: "Lezione_3_24-25.pdf"
+        - nome: "Esercizi"
+          url: "Esercizi_3_24-25.pdf"
       # - testo: "Lezione 4 - extra"
       #   urls:
       #   - nome: "Teoria"
