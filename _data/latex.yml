@@ -39,13 +39,13 @@ sezioni:
         - nome: "Esercizi"
           url: "Esercizi_4_24-25.pdf"  
 
-  - titolo: "Corso avanzato 2023-2024"
+  - titolo: "Corso avanzato 2024-2025"
     testo: ""
     downloads:
-      - testo: "Lezione avanzata - gestire una tesi con Latex"
+      - testo: "Lezione avanzata - Come gestire una tesi di laurea e non solo..."
         urls:
         - nome: "Download"
-          url: "Lezione4bis_22-23.pdf"  
+          url: "Lezione_4_bis_2025.pdf"  
 
   - titolo: "Fonti utili"
     testo: "Qui potete trovare ulteriori approfondimenti consigliati. Divertitevi con LaTeX!"
