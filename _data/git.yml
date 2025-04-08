@@ -8,12 +8,12 @@ sezioni:
           url: "lez1.pdf"
         - nome: "Esercizi"
           url: "es1.pdf"
-      # - testo: "Lezione 2 - Comandi base di Git"
-      #   urls:
-      #   - nome: "Teoria"
-      #     url: "Lezione_2___comandi_base_di_GIT.pdf"
-      #   - nome: "Esercizi"
-      #     url: "es_git_lez2.pdf"
+      - testo: "Lezione 2 - Comandi base di Git"
+        urls:
+        - nome: "Teoria"
+          url: "lez2.pdf"
+        - nome: "Esercizi"
+          url: "es2.pdf"
       # - testo: "Lezione 3 - Merge, remoto e collaborazione"
       #   urls:
       #   - nome: "Teoria"
