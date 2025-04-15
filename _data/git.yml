@@ -14,12 +14,12 @@ sezioni:
           url: "lez2.pdf"
         - nome: "Esercizi"
           url: "es2.pdf"
-      # - testo: "Lezione 3 - Merge, remoto e collaborazione"
-      #   urls:
-      #   - nome: "Teoria"
-      #     url: "lezione3.pdf"
-      #   - nome: "Esercizi"
-      #     url: "es_git_lez3.pdf"
+      - testo: "Lezione 3 - Merge, remoto e collaborazione"
+        urls:
+        - nome: "Teoria"
+          url: "lez3.pdf"
+        - nome: "Esercizi"
+          url: "es3.pdf"
   
   - titolo: "Fonti utili"
     testo: "Qui potete trovare ulteriori approfondimenti consigliati. Divertitevi con Git!"
