@@ -1,5 +1,134 @@
 sections:
   - events:
+    - image: spie25.jpg
+      title: 
+      text: "🔆 AISF e SPIE tornano per un doppio appuntamento!
+            In occasione della Giornata Internazionale della Luce, Giovanni Donati, ricercatore presso Institute of Photonics, University of Strathclyde, UK, ed Emiliano Staffoli, dottorando di UniTn, ci accompagneranno in un viaggio tra intelligenza artificiale e fotonica, esplorando come luce e elettricità possano dare forma ai neuroni del futuro.
+
+            📅 14 maggio
+            🧑🏽‍🏫 ore 14:00 - seminario - aula A222, Povo1
+            🍻 ore 20:00 - Beer&Physics - La Bookique
+
+            Non mancate!"
+      linktxt: Giornata della luce 2025
+      todo: "y"
+    - image: filosofia25.jpg
+      title: 
+      text: "🏛 Dialogo tra scienza e filosofia, in collaborazione con @cisfa_tn
+
+            🗓 12 maggio
+            🕒 18:30
+            📍 Sala Rosmini della Fondazione Caritro
+
+            Vi aspettiamo!"
+      linktxt: Scienza e filosofia 2025
+      todo: "n"
+    - image: derivate25.jpg
+      title: 
+      text: "Dopo il successo dell'anno scorso, torna la sfida a colpi di derivate e quiz di AISF Trento! Riuscirai a reggere fino all'ultimo round?
+
+            🗓 21 maggio
+            🕒 20:30
+            📍 Sala conferenze del Collegio Clesio
+            🎟 Partecipazione: 3€
+
+            📃 Per iscrivere la tua squadra e leggere il regolamento completo, inquadra il QR sulla locandina o vai al link qui sotto.
+
+            Vi aspettiamo!"
+      linktxt: Derivate alla Deriva 2025
+      link: https://forms.gle/uC4917C74bU8a6cv6
+      todo: "y"
+    - image: bondone25.jpg
+      title: 
+      text: "🏔 Anche questo semestre ci sarà la gita in montagna di AISF Trento!
+
+            🗓️ Domenica 25 maggio
+            📌 Monte Bondone - Cima Verde e Monte Cornetto
+            🕗 Ritrovo ore 7:45 in autostazione (dove partono i pullman extraurbani) per prendere il pullman delle 8:00.
+            🕟 Ritorno con il pullman delle 16:30 e rientro a Trento per le 17:35.
+
+            🎒 Occorrente:
+            - Acqua e pranzo al sacco
+            - k-way / poncho (in caso di possibili piogge)
+            - scarponi o scarpe da trekking
+
+            In base alle condizioni meteorologiche il giro potrà essere modificato oppure annullato.
+            Venite numerosi!"
+      linktxt: Gita in Bondone 2025
+      link: https://ai-sf.it/trento/downloads/liberatoria_bondone_maggio2025.pdf
+      todo: "y"
+    - image: bp_carusotto25.jpg
+      title: 
+      text: "🍻 Per il primo Beer&Physics del 2025, avremo come relatore il prof. Iacopo Carusotto, Dirigente di Ricerca presso il Pitaevskii BEC Center di Trento, che ci parlerà di fluidi di luce.
+
+            🗓 Giovedì 10 aprile
+            🕒 Ore 20:00
+            📍 La Bookique
+
+            A presto!"
+      linktxt: Beer & Physics 2025
+      todo: "n"
+    - image: git25.jpg
+      title: 
+      text: "👩‍💻Nel corso di Git & GitHub offerto da AISF Trento, imparerai a scrivere, condividere e mantenere codice per collaborare in diretta con altri utenti
+
+              🗓 Gli appuntamenti sono:
+              🔸️ 2 aprile, 16:30 - 18:30, aula A209
+              🔸️ 8 aprile, 13:30 - 15:30, aula A109
+              🔸️ 14 aprile, 15:30 - 17:30, aula A209
+
+              👥️ Ingresso libero
+
+              Vi aspettiamo numerosi!"
+      linktxt: Corso Git 2025
+      todo: "n"
+    - image: latex_adv25.jpg
+      title: 
+      text: "Anche quest'anno AISF Trento offre un breve corso avanzato di Latex!
+
+            💻 Si tratta di un'unica lezione in cui imparerai a sfruttare al meglio Latex per scrivere la tua tesi di laurea o altri documenti complessi.
+
+            🗓 Mercoledì 19 marzo
+            🕒 10:30 -12:30
+            📍 Aula A102, Povo1
+            👥️ Aperto a tutti, consigliato a studenti del terzo anno
+
+            Vi aspettiamo!"
+      linktxt: Corso avanzato Latex 2025
+      todo: "n"
+    - image: cena25.jpg
+      title: 
+      text: "Anche per questo semestre, torna la cena del comitato AISF Trento! 🍕
+
+            🗓 Giovedì 20 marzo
+            🕒 ore 20.00
+            📍 Pizzium
+
+            ❗️Il costo della cena NON sarà a carico di AISF Trento"
+      linktxt: Cena del comitato 2025
+      todo: "n"
+    - image: fisicaffe.jpg
+      title: 
+      text: "Today, a very special event called Tiqit is starting in Trento, and for the first time since Fisicaffè was born, we will wander the conference to make a special episode for the podcast - in english."
+      linktxt: TIQIT25 x Fisicaffè
+      todo: "n"
+    - image: tiqit25.jpg
+      title: 
+      text: "The Trento-Innsbruck Quantum Information Tour is an event organised by AISF Trento (Local Committee of the Italian Association of Physics Students AISF) in collaboration with AISF: it will bring 40 enthusiastic students to visit some of the most advanced research facilities in Trento and Innsbruck and is conceived to showcase research mainly in the field of Quantum Information and Quantum Science."
+      linktxt: Tiqit 2025
+      link: https://ai-sf.it/tiqit25/
+      todo: "n"
+    - image: nobel24.jpg
+      title: 
+      text: "In questa conferenza, il prof. Luca Tubiana dell'università di Trento e il prof. Morten Hjorn-Jensen dell'università di Oslo commenteranno la ricerca che sta dietro il Nobel per la Fisica di quest'anno.🏅
+
+            🗓 Lunedì 9 dicembre
+            🕠 Ore 17.30
+            📍 Aula A206, Povo 1
+
+            Vi aspettiamo!"
+      linktxt: Nobel 2024
+      todo: "n"
     - image: B&P_nov24.jpg
       title: 
       text: "🍻 Ecco il primo Beer & Physics di quest'anno!
