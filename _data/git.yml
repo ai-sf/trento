@@ -8,12 +8,12 @@ sezioni:
           url: "en_les1.pdf"
         - nome: "Exercises"
           url: "en_ex1.pdf"
-      # - testo: "Lesson 2 - Branching, remote use with Github and collaboration"
-      #   urls:
-      #   - nome: "Slides"
-      #     url: "lez2.pdf"
-      #   - nome: "Exercises"
-      #     url: "es2.pdf"
+      - testo: "Lesson 2 - Branching, remote use with Github and collaboration"
+        urls:
+        - nome: "Slides"
+          url: "en_les2.pdf"
+        - nome: "Exercises"
+          url: "en_ex2.pdf"
   - titolo: "Corso Git & GitHub 2024-2025"
     testo: " "
     downloads:
