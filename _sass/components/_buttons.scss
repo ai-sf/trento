@@ -155,3 +155,30 @@ button.btn-floating {
 .btn-block {
   display: block;
 }
+
+// Hero button
+.hero-btn {
+  display: inline-block;
+  padding: 14px 28px; //prova con 1rem 2.2rem;??
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(135deg, #1f5fc1, #2a7df0);
+  border: none;
+  border-radius: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 12px rgba(33, 102, 206, 0.3);
+  transition: all 0.25s ease-in-out;
+}
+
+.hero-btn:hover {
+  background: linear-gradient(135deg, #2a7df0, #4491ff);
+  box-shadow: 0 6px 16px rgba(33, 102, 206, 0.4);
+  transform: translateY(-2px);
+}
+
+.hero-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 8px rgba(33, 102, 206, 0.25);
+}

@@ -2,6 +2,8 @@
 #  url: https://ai-sf.it/trento/
 #- text: TIQIT24
 #  url: https://ai-sf.it/tiqit24/
+- text: Home
+  url: index
 - text: Chi Siamo
   url: comitato
 - text: Eventi Locali
@@ -10,5 +12,7 @@
   url: latex
 - text: Corso Git
   url: git
+- text: Iscriviti
+  url: https://ai-sf.it/iscrizione/
 - text: AISF
   url: https://www.ai-sf.it

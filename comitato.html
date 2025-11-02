@@ -3,56 +3,108 @@ layout: page
 title:  Chi siamo
 ---
 
-<h3>Comitato 2023-2024</h3>
+<!-- paragraph -->
+    <!-- <div class="section">
+      <div class="row">
+        <div class="col s12">
+          <p class="center" style="text-align: justify; font-size: 18px;">{{ site.data.home.paragraph }}</p>
+        </div>
+      </div>
+    </div> -->
+<h3>Comitato 2025-2026</h3>
 <!--Show committee roles-->
 {% for item in site.data.comitato.sezioni %}  
-  <ul class="collection">
-    {% for membro in item.membri %}
-        <li class="collection-item avatar">
-          <img src="{{ site.url }}{{ membro.img }}" alt="" class="circle">
-          <span class="title">{{ membro.nome }}</span>
-          <p><i>{{ membro.ruolo }}</i><br>
-            <!-- {{ membro.descr }} -->
-          </p>
-          <div class="secondary-content"><a href="mailto:{{ membro.mail }}"><i class="fa fa-lg fa-envelope"></i></a></div>
-        </li>
-    {% endfor %}
-  </ul>
+  {% if item.membri25.size > 0 %}
+    <ul class="collection">
+      {% for membro in item.membri25 %}
+          <li class="collection-item avatar">
+            <img src="{{ site.url }}{{ membro.img }}" alt="" class="circle">
+            <span class="title">{{ membro.nome }}</span>
+            <p><i>{{ membro.ruolo }}</i><br>
+              <!-- {{ membro.descr }} -->
+            </p>
+            <!-- <div class="secondary-content"><a href="mailto:{{ membro.mail }}"><i class="fa fa-lg fa-envelope"></i></a></div> -->
+          </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endfor %}
+
+
+<h3>Comitato 2024-2025</h3>
+<!--Show committee roles-->
+{% for item in site.data.comitato.sezioni %} 
+  {% if item.membri24.size > 0 %}
+    <ul class="collection">
+      {% for membro in item.membri24 %}
+          <li class="collection-item avatar">
+            <img src="{{ site.url }}{{ membro.img }}" alt="" class="circle">
+            <span class="title">{{ membro.nome }}</span>
+            <p><i>{{ membro.ruolo }}</i><br>
+              <!-- {{ membro.descr }} -->
+            </p>
+            <!-- <div class="secondary-content"><a href="mailto:{{ membro.mail }}"><i class="fa fa-lg fa-envelope"></i></a></div> -->
+          </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endfor %}
+
+
+<h3>Comitato 2023-2024</h3>
+<!--Show committee roles-->
+{% for item in site.data.comitato.sezioni %}
+  {% if item.membri23.size > 0 %}  
+    <ul class="collection">
+      {% for membro in item.membri23 %}
+          <li class="collection-item avatar">
+            <img src="{{ site.url }}{{ membro.img }}" alt="" class="circle">
+            <span class="title">{{ membro.nome }}</span>
+            <p><i>{{ membro.ruolo }}</i><br>
+              <!-- {{ membro.descr }} -->
+            </p>
+            <!-- <div class="secondary-content"><a href="mailto:{{ membro.mail }}"><i class="fa fa-lg fa-envelope"></i></a></div> -->
+          </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
 {% endfor %}
 
 {% for section in site.data.comitato.sezioni %}
-<div class="section">
-  <div class="row">
-    <div class="col s12">
-      <h3>{{section.titolo}} </h3>
-      <p>{{ section.testo }}</p>
-      {% if section.downloads %}
-      <ul class="collection">
-        {% for download in section.downloads %}
-        <li class="row valign-wrapper black-text collection-item">
-          {% assign width = download.urls | size | times: 2%}
-          <div class="col l{{12 | minus: width}} s12"> {{ download.testo}}</div>
-          {% if download%}
+  {% if section.downloads %}
+    <div class="section">
+      <div class="row">
+        <div class="col s12">
+          <h3>{{section.titolo}} </h3>
+          <p>{{ section.testo }}</p>
+          {% if section.downloads %}
+          <ul class="collection">
+            {% for download in section.downloads %}
+            <li class="row valign-wrapper black-text collection-item">
+              {% assign width = download.urls | size | times: 2%}
+              <div class="col l{{12 | minus: width}} s12"> {{ download.testo}}</div>
+              {% if download%}
 
 
-          <div class="col l{{width}} s12 right-align">
-            {% for file in download.urls %}
+              <div class="col l{{width}} s12 right-align">
+                {% for file in download.urls %}
 
-            <a class="chip custom2 white-text" href="{{site.url}}/downloads/docs/{{file.url}}"
-              style="display: inline-flex; align-items: center; margin:5px 0px;">
-              <i class="material-icons" style="margin-right: 0.2em; font-size: 12pt">file_download</i>
-              {{file.nome}}
-            </a>
+                <a class="chip custom2 white-text" href="{{site.url}}/downloads/docs/{{file.url}}"
+                  style="display: inline-flex; align-items: center; margin:5px 0px;">
+                  <i class="material-icons" style="margin-right: 0.2em; font-size: 12pt">file_download</i>
+                  {{file.nome}}
+                </a>
 
+                {% endfor %}
+              </div>
+
+              {% endif %}
+            </li>
             {% endfor %}
-          </div>
-
+          </ul>
           {% endif %}
-        </li>
-        {% endfor %}
-      </ul>
-      {% endif %}
+        </div>
+      </div>
     </div>
-  </div>
-</div>
+  {% endif %}
 {% endfor %}

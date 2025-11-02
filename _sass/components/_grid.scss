@@ -4,6 +4,13 @@
   // width: 90%;
   width: 90%;
 }
+.eventContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 2.5%;
+  align-content: flex-start;
+}
 @media #{$medium-and-up} {
   .container {
     // width: 85%;
@@ -13,7 +20,7 @@
 @media #{$large-and-up} {
   .container {
     // width: 70%;
-    width: 60%;
+    width: 64%;
   }
 }
 .container .row {
@@ -22,8 +29,8 @@
 }
 
 .section {
-	padding-top: 1rem;
-	padding-bottom: 1rem;
+	padding-top: 0rem;
+	padding-bottom: 0rem;
 
   &.no-pad {
     padding: 0;

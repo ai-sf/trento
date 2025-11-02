@@ -3,8 +3,10 @@ descr: Comitato Nazionale dell'International Association of Physics Students (IA
 
 contact:
   - name: Presidente
-    mail: nicola.pretto@ai-sf.it
+    icon: email.png
+    mail: michele.tognoni@ai-sf.it
   - name: Comitato Locale
+    icon: email.png
     mail: trento@ai-sf.it
 
 connect:
@@ -12,9 +14,13 @@ connect:
   #   url: https://www.facebook.com/AisfTrento/
 #  - name: Twitter
 #    url: https://twitter.com/aisf_fisica
-  - name: Instagram
+  - name: "@aisftrento"
+    icon: ig-logo-white.png
     url: https://instagram.com/aisftrento?igshid=ZDdkNTZiNTM=
+  - name: AISF Trento
+    icon: telegram.png
+    url: https://t.me/+7_3hJCjhOwo5Y2Y0
 
 creator:
-  - name: Giorgio Micaglio
-    mail: giorgio.micaglio@studenti.unitn.it
+  - name: Giacomo Fontanive
+    url: https://github.com/giacomofonta

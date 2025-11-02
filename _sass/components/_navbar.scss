@@ -11,6 +11,11 @@ nav {
   .nav-wrapper {
     position: relative;
     height: 100%;
+    
+    // ul li a.active {
+    //   font-weight: bold;
+    //   color: $navbar-font-color;
+    // }
 
     i {
       display: block;
@@ -18,7 +23,7 @@ nav {
     }
   }
 
-  @media #{$large-and-up} {
+  @media #{$large-and-up } {
     a.button-collapse { display: none; }
   }
 
@@ -43,7 +48,8 @@ nav {
     position: absolute;
     color: $navbar-font-color;
     display: inline-block;
-    font-size: $navbar-brand-font-size;
+    font-size: $navbar-brand-font-size; 
+    letter-spacing: 1px;
     padding: 0;
     white-space: nowrap;
 
@@ -74,7 +80,8 @@ nav {
       padding: 0;
 
       &:hover, &.active {
-        background-color: rgba(0,0,0,.1);
+        //  background-color: rgba(0,0,0,.1);
+        //  border-radius: 20px;
       }
     }
     a {
@@ -142,3 +149,19 @@ nav {
     height: $navbar-height;
   }
 }
+// Responsive navbar width
+nav .nav-wrapper.container {
+  width: 70%;
+  margin: 0 auto;
+}
+@media (max-width: 1200px) {
+  nav .nav-wrapper.container {
+    width: 80%;
+  }
+}
+@media (max-width: 992px) {
+  nav .nav-wrapper.container {
+    width: 95%;
+  }
+}
+

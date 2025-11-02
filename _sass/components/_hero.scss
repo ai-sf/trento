@@ -1,0 +1,51 @@
+.hero {
+  padding: 6rem 1rem;
+  text-align: center;
+
+  .hero-title {
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+
+    /* dimensione ridotta per non risultare dominante */
+    font-size: 1.6rem;      /* desktop */
+    line-height: 1.15;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2.4rem;
+    color: var(--text-color, #444);
+  }
+
+  .hero-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .hero-btn {
+    font-size: 1.15rem;
+    padding: 1rem 2.2rem;
+    border-radius: 9999px;
+    transition: all 0.2s ease;
+    letter-spacing: 0.4px;
+
+    &.alt {
+      background: transparent;
+      border: 2px solid currentColor;
+      color: white;
+    }
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    }
+  }
+}
+/* maggiore responsività su mobile */
+@media (max-width: 600px) {
+  .hero .hero-title {
+    font-size: 1.4rem;
+  }
+}

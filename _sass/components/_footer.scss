@@ -1,0 +1,66 @@
+footer.page-footer {
+  margin-top: 20px;
+  padding-top: 20px;
+  background-color: $footer-bg-color;
+
+  .footer-copyright {
+    overflow: hidden;
+    height: auto;
+    line-height: normal;
+    padding: 10px 0;
+    text-align: center;
+    color: rgba(255,255,255,.8);
+    background-color: rgba(51,51,51,.08);;
+    @extend .light;
+  }
+  /* Footer link layout */
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      margin-bottom: 8px; /* Spazio tra i link */
+    }
+  }
+
+  /* Imposta la disposizione icona + testo */
+  .footer-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    transition: opacity 0.2s ease;
+
+    &:hover {
+      opacity: 0.85; /* leggero effetto al passaggio */
+    }
+
+    span {
+      margin-left: 8px; /* Spazio tra icona e testo */
+      font-size: 1rem;
+    }
+  }
+
+  /* Icona */
+  .footer-icon {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    flex-shrink: 0;
+  }
+}
+/* Rimuove i limiti del container solo per desktop */
+@media (min-width: 992px) {
+  .footer-container {
+    max-width: 80% !important;
+    width: 80% !important;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media (min-width: 992px) {
+  footer.page-footer .col:first-child {
+    margin-right: 70px;
+  }
+}

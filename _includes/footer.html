@@ -1,5 +1,5 @@
 <footer class="page-footer custom1">
-  <div class="container">
+  <div class="container footer-container">
     <div class="row">
       <div class="col l7 m6 s12">
         <h5 class="white-text">{{ site.data.footer.title }}</h5>
@@ -7,18 +7,26 @@
       </div>
       <div class="col l2 m6 s6">
         <h5 class="white-text">Contatti</h5>
-        <ul>
+        <ul class="footer-links">
         {% for item in site.data.footer.contact %}
-      	  <li><a class="white-text" href="mailto:{{ item.mail }}">{{ item.name }}</a></li>
+      	  <li>
+            <a class="white-text footer-link" href="mailto:{{ item.mail }}">
+              <img src="{{ site.url }}/img/icone/{{ item.icon }}" alt="{{ item.name }} icon" class="footer-icon">
+              <span>{{ item.name }}</span>
+            </a>
+          </li>
         {% endfor %}
         </ul>
       </div>
-      <div class="col l3 m6 s6">
+      <div class="col l2 m6 s6">
         <h5 class="white-text">Social</h5>
-        <ul>
+        <ul class="footer-links">
           {% for item in site.data.footer.connect %}
 	        <li>
-            <a class="white-text" href="{{ item.url }}">{{ item.name}}</a>
+            <a class="white-text footer-link" href="{{ item.url }}" target="_blank">
+              <img src="{{ site.url }}/img/icone/{{ item.icon }}" alt="{{ item.name }} icon" class="footer-icon">
+              <span>{{ item.name }}</span>
+            </a>
           </li>
 	        {% endfor %}
         </ul>
@@ -27,9 +35,9 @@
   </div>
   <div class="footer-copyright">
     <div class="container">
-      © 2025 - Sviluppato con Jekyll e materializecss da 
+      © 2025 - Sviluppato con Jekyll e MaterializeCSS da 
         {% for item in site.data.footer.creator %}
-          <a href="mailto:{{ item.mail }}">{{ item.name }}</a>
+          <a href="{{ item.url }}" target="_blank">{{ item.name }}</a>
         {% endfor %}
     </div>
   </div>

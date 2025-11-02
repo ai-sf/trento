@@ -1,21 +1,21 @@
 
 
-.card-panel {
-  transition: box-shadow .25s;
-  padding: $card-padding;
-  margin: $element-top-margin 0 $element-bottom-margin 0;
-  border-radius: 2px;
-  @extend .z-depth-1;
-  background-color: $card-bg-color;
-}
+// .card-panel {
+//   transition: box-shadow .25s;
+//   padding: $card-padding;
+//   margin: $element-top-margin 0 $element-bottom-margin 0;
+//   border-radius: 2px;
+//   @extend .z-depth-1;
+//   background-color: $card-bg-color;
+// }
 
-.card {
+ .card { //la card stock di materialize, sotto c'è EVENT-CARD, per la pagina eventi e HOME-CARD per la homepage
   position: relative;
   overflow: hidden;
   margin: $element-top-margin 0 $element-bottom-margin 0;
   background-color: $card-bg-color;
   transition: box-shadow .25s;
-  border-radius: 2px;
+  border-radius: 20px;
   @extend .z-depth-1;
 
 
@@ -148,5 +148,179 @@
       display: block;
     }
 
+  }
+}
+
+
+
+
+.event-card {
+  border-radius: 20px;
+  overflow: hidden;
+  transition: box-shadow 0.25s ease;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  flex: 1 1 calc(33.33% - 2%); /* 3 per riga su desktop */
+  max-width: calc(33.33% - 2%);
+  display: flex;
+  min-width: 150px;
+  align-self: start;
+  margin-bottom: 2rem; /* spazio tra le righe */
+
+  .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .card-content {
+    padding: 1rem 1.5rem; 
+    display: flex;
+    flex-direction: column;
+  }
+
+  .event-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+    color: #222;
+  }
+
+  .event-date {
+    margin-bottom: 8px !important;
+    color: #666 !important;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  .collapsible-text {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    transition: 0.5s ease-in-out; 
+    color: #444;
+    white-space: pre-line; /* mantiene gli a capo */
+  }
+
+  .collapsible-text.expanded {
+    max-height: 1000px; /* “espanso” */
+  }
+
+  .toggle-btn {
+    align-self: center;
+    align-items: center;
+    gap: 0.4rem; // spazio tra icona e testo espandi
+    border-radius: 20px;
+    margin-top: 0.5rem;
+    padding: 0 0.5rem;
+    font-weight: 500;
+    text-transform: none;
+    color: #1565c0;
+    background-color: transparent;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    // &:hover {
+    //   background-color: rgba(21, 101, 192, 0.1);
+    // }
+  }
+}
+
+@media (max-width: 600px) { /*card-content più largo su mobile*/
+  .event-card .card-content {
+    padding-left: 0.7em;   
+    padding-right: 0.7em; 
+    padding-top: 0.4em;   
+    padding-bottom: 0.3em; 
+  }
+}
+
+@media (max-width: 992px) { /* su mobile */
+  .event-card { 
+    flex: 1 1 calc(50% - 2%); /* 2 per riga */
+    max-width: calc(50% - 2%);
+  }
+}
+
+
+
+
+
+.home-card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.2rem;
+  margin-top: 3rem;
+
+  @media (max-width: 992px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.home-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  height: 100%;
+}
+
+.home-card {
+  height: 100%;
+  border-radius: 30px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* header in alto, testo subito sotto */
+    padding: 1rem 1.5rem;
+    padding-top: 3rem; /* invece dei 2rem originali */
+    height: 100%; 
+  }
+
+  .home-card-icon {
+    margin-bottom: 0.8rem;
+    
+    img {
+      width: auto;
+      max-width: 100%;
+      height: 56px; 
+      margin: 0 auto;
+    }
+  }
+
+  h5 {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+  }
+}
+@media (max-width: 992px) { /* su mobile */
+  .home-card .card-content { 
+    padding-top: 1.5rem;
+    padding-bottom: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }

@@ -9,35 +9,35 @@ sezioni:
       - testo: "Introduzione"
         urls:
         - nome: "Introduzione"
-          url: "Introduzione_24-25.pdf"
+          url: "Introduzione_25-26.pdf"
       - testo: "Lezione 1 - struttura del testo"
         urls:
         - nome: "Teoria"
-          url: "Lezione_1_24-25.pdf"
+          url: "Lezione_1_25-26.pdf"
         - nome: "Esercizi"
-          url: "Esercizi_1_24-25.pdf" 
-      - testo: "Lezione 1.5 - installazione locale"
-        urls:
-        - nome: "Teoria"
-          url: "Lezione_1.5_24-25.pdf" 
-      - testo: "Lezione 2 - ambienti matematici"
-        urls:
-        - nome: "Teoria"
-          url: "Lezione_2_24-25.pdf"
-        - nome: "Esercizi"
-          url: "Esercizi_2_24-25.pdf" 
-      - testo: "Lezione 3 - figure e tabelle"
-        urls:
-        - nome: "Teoria"
-          url: "Lezione_3_24-25.pdf"
-        - nome: "Esercizi"
-          url: "Esercizi_3_24-25.pdf"
-      - testo: "Lezione 4 - extra"
-        urls:
-        - nome: "Teoria"
-          url: "Lezione_4_24-25.pdf"
-        - nome: "Esercizi"
-          url: "Esercizi_4_24-25.pdf"  
+          url: "Esercizi_1_25-26.pdf" 
+      # - testo: "Lezione 1.5 - installazione locale"
+      #   urls:
+      #   - nome: "Teoria"
+      #     url: "Lezione_1.5_24-25.pdf" 
+      # - testo: "Lezione 2 - ambienti matematici"
+      #   urls:
+      #   - nome: "Teoria"
+      #     url: "Lezione_2_24-25.pdf"
+      #   - nome: "Esercizi"
+      #     url: "Esercizi_2_24-25.pdf" 
+      # - testo: "Lezione 3 - figure e tabelle"
+      #   urls:
+      #   - nome: "Teoria"
+      #     url: "Lezione_3_24-25.pdf"
+      #   - nome: "Esercizi"
+      #     url: "Esercizi_3_24-25.pdf"
+      # - testo: "Lezione 4 - extra"
+      #   urls:
+      #   - nome: "Teoria"
+      #     url: "Lezione_4_24-25.pdf"
+      #   - nome: "Esercizi"
+      #     url: "Esercizi_4_24-25.pdf"  
 
   - titolo: "Corso avanzato 2024-2025"
     testo: ""

@@ -14,7 +14,7 @@ title: Corso LaTeX
       <ul class="collection">
         {% for download in section.downloads %}
         <li class="row valign-wrapper black-text collection-item">
-          {% assign width = download.urls | size | times: 2%}
+          {% assign width = download.urls | size | times: 4%}
           <div class="col l{{12 | minus: width}} s12"> {{ download.testo}}</div>
           {% if download%}
 

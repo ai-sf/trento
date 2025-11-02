@@ -3,74 +3,159 @@ layout: page
 title: Eventi locali
 ---
 
+{% assign now = 'now' | date: '%s' %}
+<div class="events-page"> <!-- serve solo per stringere il contenuto della pagina su desktop -->
+    <!-- ======================
+        PROSSIMAMENTE
+    ======================= -->
     <h2>Prossimamente</h2>
-    {% for section in site.data.eventi.sections %}
     <div class="section">
-        <div class="row">
-            <div class="col s12 m12">
-            {% if section.events %}
-                <div class="eventContainer" style="display:flex; flex-wrap:wrap; justify-content:space-between; align-content: flex-start;">
-                    {% assign noTodoEvents = true %}
-                    {% for event in section.events %}
-                        {% if event.todo == "y" %}
-                            {% assign noTodoEvents = false %}
-                            <div class="card" style="max-width: 48%; display: flex; flex-direction: column; justify-content: space-between; min-width: 200px; align-self: start;">
-                                <div>
-                                    <div class="card-image">
-                                        <img src="{{ site.url }}/img/eventi/{{ event.image }}">
-                                        <span class="card-title">{{ event.title }}</span>
-                                    </div>
-                                    <div class="card-content">
-                                        <p>{{ event.text }}</p>
-                                    </div>
-                                </div>
-                                <div class="card-action">
-                                    <a href={{ event.link }}>{{ event.linktxt }}</a>
-                                </div>
-                            </div>
-                        {% endif %}
-                    {% endfor %}
-                    {% if noTodoEvents %}
-                        <p>Non ci sono eventi in programma. Stay tuned!</p>
+    <div class="row">
+        <div class="col s12 m12">
+        <div class="eventContainer">
+            {% assign upcoming_events = "" | split: "" %}
+
+            {% for section in site.data.eventi.sections %}
+            {% for event in section.events %}
+                {% if event.date %}
+                {% assign event_time = event.date | date: '%s' %}
+                {% if event_time > now %}
+                    {% assign upcoming_events = upcoming_events | push: event %}
+                {% endif %}
+                {% endif %}
+            {% endfor %}
+            {% endfor %}
+
+            {% assign upcoming_events = upcoming_events | sort: 'date' %}
+
+            {% if upcoming_events.size > 0 %}
+            {% for event in upcoming_events %}
+                <div class="card event-card">
+                <div class="card-image">
+                    <img src="{{ site.url }}/img/eventi/{{ event.image }}">
+                </div>
+                <div class="card-content">
+                    {% if event.title %}
+                    <h5 class="event-title">{{ event.title }}</h5>
                     {% endif %}
+                    <p class="event-date">{{ event.date | date: "%d/%m/%Y" }}</p>
+                    <p class="event-text collapsible-text">{{ event.text }}</p>
+                    <button class="toggle-btn waves-effect waves-light btn-flat">
+                    <span>Mostra di più</span>
+                    <i class="material-icons right">expand_more</i>
+                    </button>
                 </div>
+                </div>
+            {% endfor %}
+            {% else %}
+            <p>Non ci sono eventi in programma. Stay tuned!</p>
             {% endif %}
-            </div>
+        </div>
         </div>
     </div>
-    {% endfor %}
-    <!--<p>Non ci sono eventi in programma. Stay tuned!</p>-->
-    
+    </div>
+
+    <!-- ======================
+        EVENTI RECENTI
+    ======================= -->
     <h2>Eventi recenti</h2>
-    {% for section in site.data.eventi.sections %}
     <div class="section">
-        <div class="row">
-            <div class="col s12 m12">
-            {% if section.events %}
-                <div class="eventContainer" style="display:flex; flex-wrap:wrap; justify-content:space-between; align-content: flex-start;">
-                    {% for event in section.events %}
-                        {% if event.todo != "y" %}
-                            <div class="card" style="max-width: 48%; display: flex; flex-direction: column; justify-content: space-between; min-width: 100px; align-self: start;">
-                                <div>
-                                    <div class="card-image">
-                                        <img src="{{ site.url }}/img/eventi/{{ event.image }}">
-                                        <span class="card-title">{{ event.title }}</span>
-                                    </div>
-                                    <div class="card-content">
-                                        <p>{{ event.text }}</p>
-                                    </div>
-                                </div>
-                                <div class="card-action">
-                                    <a href={{ event.link }}>{{ event.linktxt }}</a>
-                                </div>
-                            </div>
-                        {% endif %}
-                    {% endfor %}
+    <div class="row">
+        <div class="col s12 m12">
+        <div class="eventContainer">
+            {% assign recent_events = "" | split: "" %}
+            {% assign one_year_seconds = 31536000 %}
+
+            {% for section in site.data.eventi.sections %}
+            {% for event in section.events %}
+                {% if event.date %}
+                {% assign event_time = event.date | date: '%s' %}
+                {% assign diff = now | minus: event_time %}
+                {% if diff > 0 and diff < one_year_seconds %}
+                    {% assign recent_events = recent_events | push: event %}
+                {% endif %}
+                {% endif %}
+            {% endfor %}
+            {% endfor %}
+
+            {% assign recent_events = recent_events | sort: 'date' | reverse %}
+
+            {% if recent_events.size > 0 %}
+            {% for event in recent_events %}
+                <div class="card event-card">
+                <div class="card-image">
+                    <img src="{{ site.url }}/img/eventi/{{ event.image }}">
                 </div>
+                <div class="card-content">
+                    {% if event.title %}
+                    <h5 class="event-title">{{ event.title }}</h5>
+                    {% endif %}
+                    <p class="event-date">{{ event.date | date: "%d/%m/%Y" }}</p>
+                    <p class="event-text collapsible-text">{{ event.text }}</p>
+                    <button class="toggle-btn waves-effect waves-light btn-flat">
+                    <span>Mostra di più</span>
+                    <i class="material-icons right">expand_more</i>
+                    </button>
+                </div>
+                </div>
+            {% endfor %}
+            {% else %}
+            <p>Non ci sono eventi recenti.</p>
             {% endif %}
-            </div>
+        </div>
         </div>
     </div>
-    {% endfor %}
+    </div>
 
+    <!-- ======================
+        EVENTI PASSATI
+    ======================= -->
+    <h2>Eventi passati</h2>
+    <div class="section">
+    <div class="row">
+        <div class="col s12 m12">
+        <div class="eventContainer">
+            {% assign past_events = "" | split: "" %}
+            {% assign one_year_seconds = 31536000 %}
 
+            {% for section in site.data.eventi.sections %}
+            {% for event in section.events %}
+                {% if event.date %}
+                {% assign event_time = event.date | date: '%s' %}
+                {% assign diff = now | minus: event_time %}
+                {% if diff > one_year_seconds %}
+                    {% assign past_events = past_events | push: event %}
+                {% endif %}
+                {% endif %}
+            {% endfor %}
+            {% endfor %}
+
+            {% assign past_events = past_events | sort: 'date' | reverse %}
+
+            {% if past_events.size > 0 %}
+            {% for event in past_events %}
+                <div class="card event-card">
+                <div class="card-image">
+                    <img src="{{ site.url }}/img/eventi/{{ event.image }}">
+                </div>
+                <div class="card-content">
+                    {% if event.title %}
+                    <h5 class="event-title">{{ event.title }}</h5>
+                    {% endif %}
+                    <p class="event-date">{{ event.date | date: "%d/%m/%Y" }}</p>
+                    <p class="event-text collapsible-text">{{ event.text }}</p>
+                    <button class="toggle-btn waves-effect waves-light btn-flat">
+                    <span>Mostra di più</span>
+                    <i class="material-icons right">expand_more</i>
+                    </button>
+                </div>
+                </div>
+            {% endfor %}
+            {% else %}
+            <p>Non ci sono eventi passati.</p>
+            {% endif %}
+        </div>
+        </div>
+    </div>
+    </div>
+</div>
