@@ -136,5 +136,6 @@
   background-color: rgba(0,0,0,0.2);
   z-index: 997;
 
+  -webkit-backdrop-filter: blur(3px); /* <- backdrop per Safari iOS */
   backdrop-filter: blur(3px);
 }
