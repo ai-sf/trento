@@ -16,37 +16,18 @@
       <a href="#" data-activates="nav-mobile" class="button-collapse hide-on-large-only">
         <i class="material-icons">menu</i>
       </a>
-      <a id="logo-container" href="{{ site.url }}/index.html" class="brand-logo">
-        {{ site.data.generic.title }}
+      <a id="logo-container" href="{{ '/' | relative_url }}" class="brand-logo">
+        AISF Trento
       </a>
 
-      <ul class="right hide-on-med-and-down">
-        {% for item in include.nav %}
-          {% if item.subitems %}
-            <li>
-              <a class="dropdown-button" href="{{ site.url }}/{{ item.url }}" data-activates="dropdown-{{ item.slug }}">
-                {{ item.text }}<i class="material-icons right">arrow_drop_down</i>
-              </a>
-            </li>
-          {% else %}
-            {% assign item_url = '/' | append: item.url | remove: '.html' | append: '/' | replace: '//', '/' %}
-            <li>
-              <a 
-                {% if item.url contains "https://" %}
-                  href="{{ item.url }}"
-                {% else %}
-                  href="{{ site.url }}/{{ item.url }}"
-                {% endif %}
-              >
-                {% if current == item_url %}
-                  <b>{{ item.text }}</b>
-                {% else %}
-                  {{ item.text }}
-                {% endif %}
-              </a>
-            </li>
-          {% endif %}
-        {% endfor %}
+      <ul class="right hide-on-med-and-down nav-links">
+        <li><a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %}active{% endif %}">Home</a></li>
+        <li><a href="{{ '/comitato' | relative_url }}" class="{% if page.url == '/comitato/' %}active{% endif %}">Chi Siamo</a></li>
+        <li><a href="{{ '/eventi' | relative_url }}" class="{% if page.url == '/eventi/' %}active{% endif %}">Eventi Locali</a></li>
+        <li><a href="{{ '/latex' | relative_url }}" class="{% if page.url == '/latex/' %}active{% endif %}">Corso LaTeX</a></li>
+        <li><a href="{{ '/git' | relative_url }}" class="{% if page.url == '/git/' %}active{% endif %}">Corso Git</a></li>
+        <li><a href="https://ai-sf.it/iscrizione/">Iscriviti</a></li>
+        <li><a href="https://www.ai-sf.it">AISF</a></li>
       </ul>
 
 

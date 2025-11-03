@@ -97,36 +97,36 @@ nav {
   }
 
   // Navbar Search Form
-  .input-field {
-    margin: 0;
+  // .input-field {
+  //   margin: 0;
 
-    input {
-      height: 100%;
-      font-size: 1.2rem;
-      border: none;
-      padding-left: 2rem;
+  //   input {
+  //     height: 100%;
+  //     font-size: 1.2rem;
+  //     border: none;
+  //     padding-left: 2rem;
 
-      &:focus, &[type=text]:valid, &[type=password]:valid,
-      &[type=email]:valid, &[type=url]:valid, &[type=date]:valid {
-        border: none;
-        box-shadow: none;
-      }
-    }
-    label {
-      top: 0;
-      left: 0;
+  //     &:focus, &[type=text]:valid, &[type=password]:valid,
+  //     &[type=email]:valid, &[type=url]:valid, &[type=date]:valid {
+  //       border: none;
+  //       box-shadow: none;
+  //     }
+  //   }
+  //   label {
+  //     top: 0;
+  //     left: 0;
 
-      i {
-        color: rgba(255,255,255,.7);
-        @include transition(color .3s);
-      }
-      &.active i { color: $navbar-font-color; }
-      &.active {
-        @include transform(translateY(0));
-      }
-    }
+  //     i {
+  //       color: rgba(255,255,255,.7);
+  //       @include transition(color .3s);
+  //     }
+  //     &.active i { color: $navbar-font-color; }
+  //     &.active {
+  //       @include transform(translateY(0));
+  //     }
+  //   }
 
-  }
+  // }
 
 }
 
@@ -154,7 +154,7 @@ nav .nav-wrapper.container {
   width: 70%;
   margin: 0 auto;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
   nav .nav-wrapper.container {
     width: 80%;
   }
@@ -165,3 +165,58 @@ nav .nav-wrapper.container {
   }
 }
 
+
+
+// test link attivi
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 3px;
+}
+
+.nav-links li a {
+  display: block;
+  padding: 0 12px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+/* Stato "active": solo colore accent */
+.nav-links li a.active {
+  background: none; 
+  text-decoration: none; 
+  outline: none; 
+  font-weight: 800;
+  position: relative; 
+}
+
+.nav-links li a.active::after { /* linea */
+    content: ""; 
+    position: absolute; 
+    bottom: 12px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 65%; 
+    height: 3px; 
+    background-color: #fff; 
+    border-radius: 4px; 
+    transition: width 0.3s ease; 
+}
+
+/* Stato "hover": colore più chiaro */
+.nav-links li a:hover {
+  background: none; 
+  color: #b4d5ff; 
+  text-decoration: none; 
+  outline: none; 
+
+}
+.nav-links li a.active:hover::after { /* linea più lunga */
+    width: 80%; 
+}
