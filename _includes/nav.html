@@ -62,7 +62,7 @@
                   </li>
                   {% else %}
                   <li><a 
-                    {% if item.url contains "http://" %}
+                    {% if item.url contains "https://" %}
                         href="{{ item.url }}"
                     {% else %}
                         href="{{ site.url }}/{{ item.url }}"
