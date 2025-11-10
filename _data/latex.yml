@@ -20,12 +20,12 @@ sezioni:
       #   urls:
       #   - nome: "Teoria"
       #     url: "Lezione_1.5_24-25.pdf" 
-      # - testo: "Lezione 2 - ambienti matematici"
-      #   urls:
-      #   - nome: "Teoria"
-      #     url: "Lezione_2_24-25.pdf"
+      - testo: "Lezione 2 - ambienti matematici"
+        urls:
+        - nome: "Teoria"
+          url: "Lezione_2_25-26.pdf"
       #   - nome: "Esercizi"
-      #     url: "Esercizi_2_24-25.pdf" 
+      #     url: "Esercizi_2_25-26.pdf" 
       # - testo: "Lezione 3 - figure e tabelle"
       #   urls:
       #   - nome: "Teoria"

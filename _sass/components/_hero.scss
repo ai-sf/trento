@@ -23,25 +23,6 @@
     flex-wrap: wrap;
     gap: 1rem;
   }
-
-  .hero-btn {
-    font-size: 1.15rem;
-    padding: 1rem 2.2rem;
-    border-radius: 9999px;
-    transition: all 0.2s ease;
-    letter-spacing: 0.4px;
-
-    &.alt {
-      background: transparent;
-      border: 2px solid currentColor;
-      color: white;
-    }
-
-    &:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-    }
-  }
 }
 /* maggiore responsività su mobile */
 @media (max-width: 600px) {
