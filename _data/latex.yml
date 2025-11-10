@@ -24,8 +24,8 @@ sezioni:
         urls:
         - nome: "Teoria"
           url: "Lezione_2_25-26.pdf"
-      #   - nome: "Esercizi"
-      #     url: "Esercizi_2_25-26.pdf" 
+        - nome: "Esercizi"
+          url: "Esercizi_2_25-26.pdf" 
       # - testo: "Lezione 3 - figure e tabelle"
       #   urls:
       #   - nome: "Teoria"
