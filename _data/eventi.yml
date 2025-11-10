@@ -1,5 +1,17 @@
 sections:
   - events:
+    - image: B&P_nov25.jpg
+      title: Beer & Physics 2025
+      text: "🍻 Torna il Beer&Physics! Per questo appuntamento il prof. Leonardo Ricci e il dr. Mauro Hueller ci porteranno alla scoperta del teorema fluttuazione-dissipazione.
+
+            🗓 Giovedì 13 Novembre
+            🕒 Ore 20:30
+            📍 La Bookique
+
+            A presto!"
+      linktxt: 
+      # todo: "n"
+      date: "2025-11-13"
     - image: latex25.jpg
       title: Corso Latex 2025
       text: "Anche quest'anno AISF Trento offre il corso base di Latex!
