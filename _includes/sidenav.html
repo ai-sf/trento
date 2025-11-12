@@ -32,8 +32,6 @@
         <a 
           {% if item.url contains "http://" or item.url contains "https://" %}
             href="{{ item.url }}"
-          {% else if item.url ="index" %}
-            href="{{ site.url }}"
           {% else %}
             href="{{ site.url }}/{{ item.url }}"
           {% endif %}
