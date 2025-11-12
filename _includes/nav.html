@@ -29,44 +29,6 @@
         <li><a href="https://ai-sf.it/iscrizione/">Iscriviti</a></li>
         <li><a href="https://www.ai-sf.it">AISF</a></li>
       </ul>
-
-
-      <ul id="nav-mobile" class="side-nav">
-        <li class="logo"><a id="mobile-logo-container" href="{{ site.url }}"><object id="front-page-logo" type="image/png" data="{{ site.url }}/img/aisf-trento.png">Your browser does not support PNG</object><span class="mobile-logo-text">{{ site.data.generic.title }}</span></a></li>
-          {% for item in include.nav %}
-            {% if item.subitems %}
-              <li class="no-padding">
-                <ul class="collapsible collapsible-accordion">
-                  <li>
-                      <a class="collapsible-header">{{ item.text }}</a>
-                      <div class="collapsible-body">
-                        <ul>
-                          <li><a href="{{ site.url }}/{{ item.url }}">{{ item.text }}</a></li>
-                          {% for subitem in item.subitems %}
-                          <li><a href="{{ site.url }}/{{ subitem.url }}">{{ subitem.text }}</a></li>
-                          {% endfor %}
-                        </ul>
-                      </div>
-                  </li>
-                </ul>
-              </li>
-            {% else %}
-            <li><a 
-              {% if item.url contains "http://" %}
-                  href="{{ item.url }}"
-              {% else %}
-                  href="{{ site.url }}/{{ item.url }}"
-              {% endif %}
-              >
-              {% if item.url == navurl %}
-              {{ item.text }}
-              {% else %}
-              {{ item.text }}
-              {% endif %}
-            </a></li>
-            {% endif %}
-          {% endfor %}
-      </ul>
     </div>
   </nav>
 </div>

@@ -1,0 +1,46 @@
+{% assign current = page.url | remove: 'index.html' | remove: '.html' | replace: '//', '/' %}
+
+<ul id="nav-mobile" class="side-nav">
+  <li class="logo">
+    <a id="mobile-logo-container" href="{{ site.url }}">
+      <object id="front-page-logo" type="image/png" data="{{ site.url }}/img/aisf-trento.png">
+        Your browser does not support PNG
+      </object>
+      <span class="mobile-logo-text">{{ site.data.generic.title }}</span>
+    </a>
+  </li>
+
+  {% for item in include.nav %}
+    {% if item.subitems %}
+      <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+          <li>
+            <a class="collapsible-header">{{ item.text }}</a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="{{ site.url }}/{{ item.url }}">{{ item.text }}</a></li>
+                {% for subitem in item.subitems %}
+                  <li><a href="{{ site.url }}/{{ subitem.url }}">{{ subitem.text }}</a></li>
+                {% endfor %}
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </li>
+    {% else %}
+      <li>
+        <a 
+          {% if item.url contains "http://" or item.url contains "https://" %}
+            href="{{ item.url }}"
+          {% else if item.url ="index" %}
+            href="{{ site.url }}"
+          {% else %}
+            href="{{ site.url }}/{{ item.url }}"
+          {% endif %}
+        >
+          {{ item.text }}
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
