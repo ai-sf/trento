@@ -30,8 +30,8 @@ sezioni:
         urls:
         - nome: "Teoria"
           url: "Lezione_3_25-26.pdf"
-      #   - nome: "Esercizi"
-      #     url: "Esercizi_3_25-26.pdf"
+        - nome: "Esercizi"
+          url: "Esercizi_3_25-26.pdf"
       # - testo: "Lezione 4 - extra"
       #   urls:
       #   - nome: "Teoria"
