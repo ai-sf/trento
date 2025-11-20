@@ -1,5 +1,15 @@
 sections:
   - events:
+    - image: nobel25.jpg
+      title: Nobel 2025
+      text: "💡 Volete saperne di più sul premio Nobel per la Fisica di quest'anno? I prof. Federica Mantegazzini e Gianluca Rastelli ci sveleranno i segreti dei circuiti quantistici! 
+            🗓 Mercoledì 3 Dicembre 
+            🕒 ore 17:30 
+            📍 Aula A206, Povo 1
+            Vi aspettiamo!"
+      linktxt: 
+      # todo: "n"
+      date: "2025-12-03"
     - image: B&P_nov25.jpg
       title: Beer & Physics 2025
       text: "🍻 Torna il Beer&Physics! Per questo appuntamento il prof. Leonardo Ricci e il dr. Mauro Hueller ci porteranno alla scoperta del teorema fluttuazione-dissipazione.
@@ -386,7 +396,7 @@ sections:
               Il prof. G. Lattanzi e il prof. R. Potestio ci racconteranno di approcci computazionali alla biofisica e alla materia soffice."
       linktxt: 
       link: https://www.youtube.com/watch?v=dQw4w9WgXcQ
-    - image: nobel.png
+    - image: nobel22.png
       title: Nobel 2022
       text: "Dopo il grande successo dell'ultimo Beer & Physics, i proff. Valter Moretti e Lorenzo Pavesi tornano per raccontarci i premi Nobel per la fisica 2022."
       linktxt: 
