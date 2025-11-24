@@ -36,8 +36,8 @@ sezioni:
         urls:
         - nome: "Teoria"
           url: "Lezione_4_25-26.pdf"
-      #   - nome: "Esercizi"
-      #     url: "Esercizi_4_25-26.pdf"  
+        - nome: "Esercizi"
+          url: "Esercizi_4_25-26.pdf"  
 
   - titolo: "Corso avanzato 2024-2025"
     testo: ""
