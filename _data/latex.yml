@@ -32,12 +32,12 @@ sezioni:
           url: "Lezione_3_25-26.pdf"
         - nome: "Esercizi"
           url: "Esercizi_3_25-26.pdf"
-      # - testo: "Lezione 4 - extra"
-      #   urls:
-      #   - nome: "Teoria"
-      #     url: "Lezione_4_24-25.pdf"
+      - testo: "Lezione 4 - extra"
+        urls:
+        - nome: "Teoria"
+          url: "Lezione_4_25-26.pdf"
       #   - nome: "Esercizi"
-      #     url: "Esercizi_4_24-25.pdf"  
+      #     url: "Esercizi_4_25-26.pdf"  
 
   - titolo: "Corso avanzato 2024-2025"
     testo: ""
