@@ -1,5 +1,17 @@
 sections:
   - events:
+    - image: 10mo_anniversario.jpg
+      title: 10 anni di AISF Trento
+      text: "AISF Trento compie 10 anni!
+              🎉 Per celebrare questo traguardo, abbiamo invitato dei membri storici del nostro comitato a passare una serata insieme, raccontarci com'è stata la loro esperienza in AISF e dirci cosa sono finiti a fare dopo aver concluso gli studi a Trento.
+              🗓 Venerdì 12 Dicembre
+              🕒 dalle 18.30
+              📍 Trento, sala Conferenze della Fondazione Caritro
+              🍕 A seguire, pizza tutti insieme!
+              Non mancate :)"
+      linktxt: 
+      # todo: "n"
+      date: "2025-12-12"
     - image: nobel25.jpg
       title: Nobel 2025
       text: "💡 Volete saperne di più sul premio Nobel per la Fisica di quest'anno? I prof. Federica Mantegazzini e Gianluca Rastelli ci sveleranno i segreti dei circuiti quantistici! 
