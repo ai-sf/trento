@@ -1,14 +1,96 @@
 sections:
   - events:
+    - image: B&P_apr26.jpg
+      title: Beer & Physics
+      text: "🍻 Per il prossimo Beer & Physics, preparatevi ad un viaggio alla scoperta della relatività, dalla teoria matematica alle simulazioni!
+            👥 Con il prof. Albino Perego e il dott. Paolo Meda
+
+            🗓 Martedì 21 aprile
+            🕒 ore 20:30
+            📍 La Bookique
+
+            ⚠️ Consumazione obbligatoria di 5€, a scelta tra birra, spritz e analcolici
+            💫 A presto!"
+      linktxt: 
+      # todo: "n"
+      date: "2026-04-21"
+    - image: B&P_mar26.jpg
+      title: Beer & Physics
+      text: "🧬 Ultimo evento AISF del mese: Beer&Physics con il prof. Luca Tubiana, il post-doc Davide Breoni e i dottorandi Guglielmo Grillo e Carolina Palombo. Ci parleranno di attività, topologia e materiali ispirati alla biologia!
+            🗓 Martedì 24 marzo
+            🕒 ore 21:00
+            📍 La Bookique
+            ⚠️ Consumazione obbligatoria di 5€, a scelta tra birra, spritz e analcolici
+               presto!"
+      linktxt: 
+      # todo: "n"
+      date: "2026-03-16"
+    - image: latex_adv_mar26.jpg
+      title: Corso avanzato Latex 2026
+      text: "👩🏻‍💻 Volete imparare trucchi utili per scrivere la vostra tesi in LaTeX? Allora vi aspettiamo alla lezione di LaTeX avanzato offerta da AISF Trento e Spettro di Povo!
+            🗓 Lunedì 16 Marzo
+            🕒 15:30 - 17:30
+            📍 Povo 1, aula A204"
+      linktxt: 
+      # todo: "n"
+      date: "2026-03-16"
+    - image: conf_mar26.jpg
+      title: Viaggio nella meccanica quantistica
+      text: "⚛️ Marzo è ricco di eventi AISF!
+            Vi aspettiamo alla nostra prossima conferenza intitolata ''Viaggio nella meccanica quantistica: dal mondo microscopico all'informazione'', tenuta dal prof. Franco Dalfovo e dalla dott.ssa Chiara Capecci
+
+            🗓 Giovedì 19 marzo
+            🕒 ore 20:30
+            📍 Sala Agorà, Casa Sociale di Povo"
+      linktxt: 
+      # todo: "n"
+      date: "2026-03-19"
+    - image: science_no_gender_mar26.jpg
+      title: Science has no gender
+      text: "Chi ha paura delle STEM?
+            In occasione della Giornata Internazionale della Donna, AISF Trento e Spettro di Povo organizzano un incontro formativo sull'ansia da STEM, in cui interverranno professori e ricercatori dell'Università di Trento, riportando dati ed esperienze personali, con focus su dinamiche di genere e bias relativi alla popolazione femminile.
+            Interverrano il prof. Massimiliano Rinaldi (delegato RuniPace dell'ateneo), la dott. Emma Franchino (ricercatrice in Scienze Cognitive presso il Dip. di Fisica) e la prof. Barbara Poggio (prorettrice alle politiche di equità e diversità dell’ateneo).
+            🗓 Martedì 10 marzo
+            🕒 ore 20:30
+            📍 Sala conferenze della Fondazione Caritro, via Calepina 1, Trento
+            Vi aspettiamo!"
+      linktxt: 
+      # todo: "n"
+      date: "2026-03-10"
+    - image: speed_dating_feb26.jpg
+      title: Phd Speed Dating
+      text: "💘 Vuoi informarti sui dottorati? Ti incuriosisce la ricerca al dipartimento di Fisica? Sei alla ricerca dell'amore (o di una tesi)?
+            Allora AISF Trento, Spettro di Povo e SPIE UniTn ti aspettano al PhD speed dating!
+            🗓 Giovedì 26 febbraio
+            🕑 17:00 - 19:00
+            📍 Atrio di Povo 2
+            👔 Ci sarà un aperitivo dove sarà possibile conoscere le aziende Leos, Ephos e ThinkQuantum
+            L'evento è parte del programma di TIQIT26."
+      linktxt: 
+      # todo: "n"
+      date: "2026-02-26"
+    - image: B&P_feb26.jpg
+      title: Beer & Physics 2026
+      text: "🍻 AISF Trento torna con il primo Beer & Physics del 2026!
+            ⚛️ Questa volta, ci faremo svelare dal prof. Lorenzo Pavesi i dettagli di un suo lavoro sui chip fotonici che sfruttano l'entanglement, e il prof. Valter Moretti ci aiuterà a capire la teoria che si nasconde dietro questi dispositivi.
+            🍽 L'evento è parte di TIQIT26, quindi è possibile partecipare al buffet che lo precede (a base di prodotti tipici trentini), prenotandosi al modulo che trovate al link in bio, al prezzo di 16€.
+            ❗️Poiché TIQIT è un evento internazionale, la conferenza si terrà in lingua inglese.
+            🗓 Giovedì 26 febbraio
+            🕑 Ore 20:30
+            📍 Locanda del Gatto Gordo
+            Vi aspettiamo numerosi!"
+      linktxt: 
+      # todo: "n"
+      date: "2026-02-26"
     - image: 10mo_anniversario.jpg
       title: 10 anni di AISF Trento
       text: "AISF Trento compie 10 anni!
-              🎉 Per celebrare questo traguardo, abbiamo invitato dei membri storici del nostro comitato a passare una serata insieme, raccontarci com'è stata la loro esperienza in AISF e dirci cosa sono finiti a fare dopo aver concluso gli studi a Trento.
-              🗓 Venerdì 12 Dicembre
-              🕒 dalle 18.30
-              📍 Trento, sala Conferenze della Fondazione Caritro
-              🍕 A seguire, pizza tutti insieme!
-              Non mancate :)"
+            🎉 Per celebrare questo traguardo, abbiamo invitato dei membri storici del nostro comitato a passare una serata insieme, raccontarci com'è stata la loro esperienza in AISF e dirci cosa sono finiti a fare dopo aver concluso gli studi a Trento.
+            🗓 Venerdì 12 Dicembre
+            🕒 dalle 18.30
+            📍 Trento, sala Conferenze della Fondazione Caritro
+            🍕 A seguire, pizza tutti insieme!
+            Non mancate :)"
       linktxt: 
       # todo: "n"
       date: "2025-12-12"
