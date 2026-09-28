@@ -15,9 +15,7 @@ sections:
             - 2 Beer&Physics
             - Viaggio culturale a Frascati con momenti di formazione (con il supporto finanziario di Opera Universitaria e Università di Trento)
             - 1 conferenza divulgativa in città
-            - Conferenza sui nobel della fisica
-
-            Più avanti pubblicheremo i dettagli dei singoli eventi."
+            - Conferenza sui nobel della fisica"
       linktxt: 
       # todo: "n"
       date: "2026-09-25"
@@ -62,7 +60,7 @@ sections:
             Vi aspettiamo!"
       linktxt: 
       # todo: "n"
-      date: "2026-04-21"
+      date: "2026-05-19"
     - image: B&P_apr26.jpg
       title: Beer & Physics
       text: "🍻 Per il prossimo Beer & Physics, preparatevi ad un viaggio alla scoperta della relatività, dalla teoria matematica alle simulazioni!
