@@ -1,5 +1,68 @@
 sections:
   - events:
+    - image: viaggio26.jpg
+      title: Viaggio scientifico
+      text: "L'Associazione Spettro di Povo organizza in collaborazione con AISF Trento tre giornate alla scoperta della scienza e della cultura a Roma e Frascati da Giovedì 15 a Sabato 17 Ottobre 2026!
+            Tutti i dettagli sono nel modulo di iscrizione (link in bio). Affrettatevi, le iscrizioni chiudono il 2 ottobre!
+            Il viaggio scientifico si inserisce nel contesto del semestre scientifico organizzato da Spettro di Povo e AISF Trento, finanziato dalla Provincia Autonoma di Trento tramite le politiche giovanili."
+      linktxt: 
+      # todo: "n"
+      date: "2026-10-15"
+    - image: 1semestre26.jpg
+      title: Semestre scientifico
+      text: "Inauguriamo il progetto ''Semestre scientifico''.
+            Organizzato da Spettro di Povo e AISF Trento, finanziato dalla Provincia Autonoma di Trento tramite le politiche giovanili include una serie di eventi per tutti i gusti.
+            - 2 Beer&Physics
+            - Viaggio culturale a Frascati con momenti di formazione (con il supporto finanziario di Opera Universitaria e Università di Trento)
+            - 1 conferenza divulgativa in città
+            - Conferenza sui nobel della fisica
+
+            Più avanti pubblicheremo i dettagli dei singoli eventi."
+      linktxt: 
+      # todo: "n"
+      date: "2026-09-25"
+    - image: caccia26.jpg
+      title: Caccia al tesoro 2026
+      text: "⚡️ Proseguiamo il nuovo anno con un evento per le matricole!
+
+            🧭 Partecipando alla caccia al tesoro, avrete la possibilità sia di scoprire gli spazi dell'università, sia di conoscere meglio i vostri nuovi compagni e le vostre nuove compagne di corso, ma anche di vincere dei premi speciali.
+
+            🗓 Martedì 22 Settembre
+            🕒 Ore 17:30
+            📍 Ingresso edificio Mesiano
+
+            Vi aspettiamo!"
+      linktxt: 
+      # todo: "n"
+      date: "2026-09-22"
+    - image: passeggiaisf26.jpg
+      title: PasseggiAISF 2026
+      text: "🔆 Avete voglia di passare una giornata in compagnia? Unitevi a PasseggiAISF!
+
+            🏕 Faremo una breve camminata fino ad un punto ristoro, dove prepareremo un pranzo a base di formaggio, salsicce, e polenta ma anche con opzioni vegane.
+
+            🗓 Domenica 20 settembre
+            📍 Pra' Marquart, poco prima del rifugio Maranza
+
+            ↪️ Partenza alle 10:15 da Borino raggiungibile con il Bus 5
+            ↩️ Ritorno alle 15:50, per prendere il bus delle 17:02"
+      linktxt: 
+      # todo: "n"
+      date: "2026-09-20"
+    - image: derivate26.jpg
+      title: Derivate alla deriva 2026
+      text: "⚔️ Anche quest'anno torna Derivate alla Deriva, la sfida a colpi di derivate e quiz di AISF Trento! Riuscirai a reggere fino all'ultimo round?
+
+            🗓 19 Maggio
+            🕒 dalle 20:30
+            📍 Sala conferenze del Collegio Clesio
+            🎟 Partecipazione: 3€
+
+            📝 Per iscrivere la tua squadra e leggere il regolamento completo, visita il link https://forms.gle/KaraXrYxULZeP28D9
+            Vi aspettiamo!"
+      linktxt: 
+      # todo: "n"
+      date: "2026-04-21"
     - image: B&P_apr26.jpg
       title: Beer & Physics
       text: "🍻 Per il prossimo Beer & Physics, preparatevi ad un viaggio alla scoperta della relatività, dalla teoria matematica alle simulazioni!
@@ -13,7 +76,7 @@ sections:
             💫 A presto!"
       linktxt: 
       # todo: "n"
-      date: "2026-04-21"
+      date: "2026-05-19"
     - image: B&P_mar26.jpg
       title: Beer & Physics
       text: "🧬 Ultimo evento AISF del mese: Beer&Physics con il prof. Luca Tubiana, il post-doc Davide Breoni e i dottorandi Guglielmo Grillo e Carolina Palombo. Ci parleranno di attività, topologia e materiali ispirati alla biologia!
@@ -379,6 +442,7 @@ sections:
       text: "Nelle giornate di giovedì 2-9-16 maggio si terrà la prima edizione del corso Git & GitHub organizzato da AISF Trento. Il corso è aperto a tutti per la prima lezione, mentre è riservato agli iscritti AISF per la seconda e la terza."
       # todo: "n"
       linktxt: 
+      date: "2024-05-02" # anno-mese-giorno
     - image: nuclear.jpg
       title: Nuclear
       text: "ELSA Trento e AISF Trento vi aspettano numerosi al seminario dal titolo “Energia nucleare. Arma o risorsa?”
@@ -397,6 +461,7 @@ sections:
             - Prof. Pederiva | Dipartimento di Fisica di Trento, Direttore TIFPA"
       # todo: "n"
       linktxt: 
+      date: "2024-05-08" # anno-mese-giorno
     - image: donne.jpg
       title: La scienza non ha genere
       text: "La scienza non ha genere - tavola rotonda sul tema della donne nella fisica <br>
@@ -405,39 +470,46 @@ sections:
             📍 Sala conferenze Fondazione CARITRO - Via Calepina, 1 Trento "
       # todo: "n"
       linktxt: 
+      date: "2024-05-06" # anno-mese-giorno
     - image: bp-guella.jpg
       title: Beer & Physics 2024
       text: "Torna il Beer & Physics! Per questa edizione vi aspettiamo in @bookique.trento per un interessante incontro sulla meteorologia e il cambiamento climatico, per buttare uno sguardo sulle possibili soluzioni del futuro. A parlarcene saranno la prof.ssa Bordoni, il prof. Tosi e il Prof. Guella, speaker per questa serata"
       # todo: "n"
       linktxt: 
+      date: "2024-04-10" # anno-mese-giorno
     - image: latex_flyer_adv.png
       title: Corso LaTeX avanzato
       text: "Vi segnaliamo questa lezione, che rientra nel ciclo delle lezioni del corso di Latex, rivolta agli studenti del terzo anno (e non solo) per imparare a scrivere al meglio la tesi! Non perdetevelo!!"
       linktxt: 
       #link: https://docs.google.com/forms/d/e/1FAIpQLSe39JaM9SdMdzliLLokJSAG_PCV0dlVLKaXa4QU0KVFElOoXg/viewform?usp=sf_link
       # todo: "n"
+      date: "2024-03-08" # anno-mese-giorno
     - image: B&Pdec23.jpg
       title: Beer & Physics 2023
       text: "Giovedì 14 dicembre alle ore 20:00 siete tutti invitati in Bookique per incontrare il Prof. W.J. Weber e il PhD student V. Chiavegato all'evento 'L'universo dei buchi neri supermassivi'.<br> I nostri ospiti ci parleranno del loro lavoro di ricerca, per scoprire la fisica della gravitazione a bassa frequenza e le tecniche sperimentali più all'avanguardia, come il grande progetto LISA."
       # todo: "n"
       linktxt: 
+      date: "2023-12-14" # anno-mese-giorno
     - image: tiqit24.jpeg
       title: TIQIT 2024
       text: "Calling all students who want to join this amazing opportunity to dive into the world of physics research by visiting two cutting edge institutions, the University of Trento and the University of Innsbruck. <br>By joining us, you will visit innovative laboratories and attend enthralling lessons about Bose-Einstein Condensation, Nanoscience, Quantum Optics and Quantum Information. More info in the link to the website down below."
       linktxt: 
       link: https://ai-sf.it/tiqit24/
       # todo: "n"
+      date: "2024-02-18" # anno-mese-giorno
     - image: nobel23.jpeg
       title: Nobel 2023
       text: "Mercoledì 6 dicembre alle 17:30 vi aspettiamo in Aula A105 (Povo) con il Prof. Ferrari e il Prof. Zanatta che ci spiegheranno i segreti della Fisica dell'Attosecondo, che ha fatto guadagnare il Nobel di quest'anno a P. Agostini, F. Krausz e A. L'Huillier."
       linktxt: 
       # todo: "n"
+      date: "2023-12-06" # anno-mese-giorno
     - image: latex_flyer.png
       title: Corso LaTeX
       text: "Come da tradizione, anche quest'anno terremo l'utilissimo corso di LaTeX, che darà le basi per poter scrivere con questo fondamentale strumento per la nostra carriera di fisici... e non solo!<br><br> È possibile segnarsi al corso tramite il link sottostante."
       linktxt: 
       link: https://docs.google.com/forms/d/e/1FAIpQLSe39JaM9SdMdzliLLokJSAG_PCV0dlVLKaXa4QU0KVFElOoXg/viewform?usp=sf_link
       # todo: "n"
+      date: "2023-11-08" # anno-mese-giorno
     - image: unitn_students_day.png
       title: UniTrento Students Day
       text: "Ti sei mai chiesto quante sono le associazioni universitarie che operano a Trento?
@@ -445,17 +517,20 @@ sections:
       linktxt: 
       link: https://www.instagram.com/p/Cxn6o4-LNKA/
       # todo: "n"
+      date: "2023-09-30" # anno-mese-giorno
     - image: analog_gravity.png
       title: Modelli Analoghi di Gravità
       text: "In questo incontro prenderemo spunto dal workshop all'ECT* sui modelli analoghi di gravità e la simulazione quantistica di problemi gravitazionali in sistemi ottici e fluidi quantistici, e spazieremo attraverso gli sviluppi più interessanti della ricerca contemporanea in gravità, cosmologia, astrofisica, fisica quantistica e fisica della materia condensata."
       linktxt: 
       link: https://www.ectstar.eu/
       # todo: "n"
+      date: "2023-06-20" # anno-mese-giorno
     - image: EHT_beer.png
       title: Beer & Physics EHT
       text: "La stessa sera del seminario sulla collaborazione EHT (06/06/2023) si terrà una chiacchierata nella piazzetta de La Bookique di Trento con speaker la prof.ssa Mariafelicita De Laurentis e moderatori il prof. Albino Perego e il prof. Massimiliano Rinaldi."
       linktxt: 
       # todo: "n"
+      date: "2023-06-06" # anno-mese-giorno
     - image: EHT_event.jpeg
       title: Seminario EHT
       text: "Martedì 06/06 in aula A105 si terrà un seminario centrato sulla collaborazione EHT con speaker la prof.ssa Mariafelicita De Laurentis.
@@ -464,11 +539,13 @@ sections:
       linktxt: 
       link: https://forms.gle/86ZcR862o3ryCRTL7
       # todo: "n"
+      date: "2023-06-06" # anno-mese-giorno
     - image: beer_phys.png
       title: Beer & Physics 2023
       text: "Torna il tanto atteso Beer & Physics!
               Il prof. F. Dalfovo e il prof. S. Stringari con la ricercatrice A. Berti ci racconteranno dei condensati Bose-Einstein, in onore del prof. L. Pitaevskii."
       linktxt: 
+      date: "2023-05-08" # anno-mese-giorno
     - image: latex_avanzato.png
       title: Corso Latex Avanzato
       text: "Il nostro corso di LaTeX si concluderà con l'ultima lezione il venerdì 3 Marzo, alle 16:30.
@@ -477,6 +554,7 @@ sections:
               Se volete seguire la lezione basta iscriversi al link nelle storie o in bio."
       linktxt: 
       link: https://ai-sf.it/trento/latex
+      date: "2023-03-03" # anno-mese-giorno
     - image: tiqit_loc.png
       title: Tiqit 2023
       text: " TIQIT, the Trento-Innbsruck Quantum Information Tour, is finally back. <br>
@@ -484,6 +562,7 @@ sections:
               There will be talks and visits to laboratories."
       linktxt: 
       link: https://ai-sf.it/tiqit23
+      date: "2023-02-27" # anno-mese-giorno
     - image: beer_phys_dec.png
       title: Beer & Physics 2022
       text: "È tornato il Beer & Physics!<br>
