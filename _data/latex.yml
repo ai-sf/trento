@@ -3,41 +3,41 @@ sezioni:
   # - titolo: "Corso base 2024-2025"
   #   testo: "Sezione in continuo aggiornamento. A presto disponibile."
 
-  - titolo: "Corso base 2025-2026"
-    testo: " "
-    downloads:
-      - testo: "Introduzione"
-        urls:
-        - nome: "Introduzione"
-          url: "Introduzione_25-26.pdf"
-      - testo: "Lezione 1 - struttura del testo"
-        urls:
-        - nome: "Teoria"
-          url: "Lezione_1_25-26.pdf"
-        - nome: "Esercizi"
-          url: "Esercizi_1_25-26.pdf" 
-      # - testo: "Lezione 1.5 - installazione locale"
-      #   urls:
-      #   - nome: "Teoria"
-      #     url: "Lezione_1.5_24-25.pdf" 
-      - testo: "Lezione 2 - ambienti matematici"
-        urls:
-        - nome: "Teoria"
-          url: "Lezione_2_25-26.pdf"
-        - nome: "Esercizi"
-          url: "Esercizi_2_25-26.pdf" 
-      - testo: "Lezione 3 - figure e tabelle"
-        urls:
-        - nome: "Teoria"
-          url: "Lezione_3_25-26.pdf"
-        - nome: "Esercizi"
-          url: "Esercizi_3_25-26.pdf"
-      - testo: "Lezione 4 - extra"
-        urls:
-        - nome: "Teoria"
-          url: "Lezione_4_25-26.pdf"
-        - nome: "Esercizi"
-          url: "Esercizi_4_25-26.pdf"  
+  - titolo: "Corso base 2026-2027"
+    testo: " Il corso sarà avviato a breve, stay tuned! "
+    # downloads:
+    #   - testo: "Introduzione"
+    #     urls:
+    #     - nome: "Introduzione"
+    #       url: "Introduzione_25-26.pdf"
+    #   - testo: "Lezione 1 - struttura del testo"
+    #     urls:
+    #     - nome: "Teoria"
+    #       url: "Lezione_1_25-26.pdf"
+    #     - nome: "Esercizi"
+    #       url: "Esercizi_1_25-26.pdf" 
+    #   # - testo: "Lezione 1.5 - installazione locale"
+    #   #   urls:
+    #   #   - nome: "Teoria"
+    #   #     url: "Lezione_1.5_24-25.pdf" 
+    #   - testo: "Lezione 2 - ambienti matematici"
+    #     urls:
+    #     - nome: "Teoria"
+    #       url: "Lezione_2_25-26.pdf"
+    #     - nome: "Esercizi"
+    #       url: "Esercizi_2_25-26.pdf" 
+    #   - testo: "Lezione 3 - figure e tabelle"
+    #     urls:
+    #     - nome: "Teoria"
+    #       url: "Lezione_3_25-26.pdf"
+    #     - nome: "Esercizi"
+    #       url: "Esercizi_3_25-26.pdf"
+    #   - testo: "Lezione 4 - extra"
+    #     urls:
+    #     - nome: "Teoria"
+    #       url: "Lezione_4_25-26.pdf"
+    #     - nome: "Esercizi"
+    #       url: "Esercizi_4_25-26.pdf"  
 
   - titolo: "Corso avanzato 2025-2026"
     testo: ""
