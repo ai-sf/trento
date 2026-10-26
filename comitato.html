@@ -11,6 +11,25 @@ title:  Chi siamo
     </div>
   </div>
 </div> 
+<h3>Comitato 2026-2027</h3>
+<!--Show committee roles-->
+{% for item in site.data.comitato.sezioni %}  
+  {% if item.membri26.size > 0 %}
+    <ul class="collection">
+      {% for membro in item.membri26 %}
+          <li class="collection-item avatar">
+            <img src="{{ site.url }}{{ membro.img }}" alt="" class="circle">
+            <span class="title">{{ membro.nome }}</span>
+            <p><i>{{ membro.ruolo }}</i><br>
+              <!-- {{ membro.descr }} -->
+            </p>
+            <!-- <div class="secondary-content"><a href="mailto:{{ membro.mail }}"><i class="fa fa-lg fa-envelope"></i></a></div> -->
+          </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endfor %}
+
 <h3>Comitato 2025-2026</h3>
 <!--Show committee roles-->
 {% for item in site.data.comitato.sezioni %}  
