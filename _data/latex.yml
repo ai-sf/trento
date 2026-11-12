@@ -6,16 +6,16 @@ sezioni:
   - titolo: "Corso base 2026-2027"
     testo: " Il corso sarà avviato a breve, stay tuned! "
     downloads:
-      # - testo: "Introduzione"
-      #   urls:
-      #   - nome: "Introduzione"
-      #     url: "Introduzione_25-26.pdf"
+      - testo: "Introduzione"
+        urls:
+        - nome: "Introduzione"
+          url: "Introduzione_26-27.pdf"
       - testo: "Lezione 1 - struttura del testo"
         urls:
         - nome: "Teoria"
           url: "Lezione_1_26-27.pdf"
-        # - nome: "Esercizi"
-        #   url: "Esercizi_1_25-26.pdf" 
+        - nome: "Esercizio"
+          url: "Es_1_26-27.pdf" 
       # - testo: "Lezione 1.5 - installazione locale"
       #   urls:
       #   - nome: "Teoria"
