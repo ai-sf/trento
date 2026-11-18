@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg style="vertical-align: -0.226ex;" xmlns="http://www.w3.org/2000/svg" width="2.303ex" height="1.584ex" viewBox="0 -600 1018 700" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true">
+  <defs>
+    <style>
+      svg a{fill:blue;stroke:blue}
+      [data-mml-node="merror"]>g{fill:red;stroke:red}
+      [data-mml-node="merror"]>rect[data-background]{fill:yellow;stroke:none}
+      [data-frame],[data-line]{stroke-width:70px;fill:none}
+      .mjx-dashed{stroke-dasharray:140}
+      .mjx-dotted{stroke-linecap:round;stroke-dasharray:0,140}
+      use[data-c]{stroke-width:3px}
+    </style>
+    <path id="MJX-30-NCM-V-21CC" d="M938 322C950 322 956 328 956 339C956 346 953 351 946 354C864 394 782 491 753 583C750 594 743 600 730 600C714 600 706 592 706 576C706 549 724 511 759 463C792 420 822 389 849 370L80 370C64 370 56 362 56 346C56 330 64 322 80 322M938 178L80 178C68 178 62 172 62 161C62 154 65 149 72 146C111 127 150 95 191 49C225 10 250-34 265-83C268-94 275-100 288-100C304-100 312-92 312-76C312-73 311-71 310-69C283 18 236 85 169 130L938 130C954 130 962 138 962 154C962 167 951 178 938 178Z"/>
+  </defs>
+  <g stroke="black" fill="black" stroke-width="0" transform="scale(1,-1)">
+    <g data-mml-node="math">
+      <g data-mml-node="mo" class="">
+        <use data-c="21CC" xlink:href="#MJX-30-NCM-V-21CC"/>
+      </g>
+    </g>
+  </g>
+</svg>
