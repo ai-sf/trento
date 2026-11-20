@@ -1,5 +1,46 @@
 sections:
   - events:
+    - image: b&p_nov26.jpg
+      title: Beer & Physics
+      text: "Per il secondo Beer&Physics del semestre, preparatevi ad un viaggio ad altissima energia alla scoperta dell’universo invisibile! 🌌
+
+              👥 prof. Dimiccoli e dott. Giordano
+
+              📆 10 novembre
+              ⏰ 20:30
+              📍Tetley’s Pub"
+      linktxt: 
+      # todo: "n"
+      date: "2026-11-10"
+    - image: latex26.jpg
+      title: Corso Latex 2026
+      text: "Anche quest’anno AISF Trento offre il corso base di Latex!
+
+              👩‍💻 Dalle relazioni di laboratorio alla tesi di laurea e gli articoli scientifici, Latex è il software di videoscrittura per eccellenza tra i fisici.
+
+              📚In queste lezioni imparerai:
+              1. struttura e impostazione di un testo;
+              2. ambienti matematici;
+              3. figure e tabelle;
+              4. nozioni utili per la stesura delle relazioni.
+
+              Gli incontri si terranno:
+              📍a Mesiano, aula T4
+              📆 11-18-25 novembre e 2 dicembre
+              ⏰ 13:30-15:30"
+      linktxt: 
+      # todo: "n"
+      date: "2026-11-11"
+    - image: b&p_ott26.jpg
+      title: Beer & Physics
+      text: "Per il primo Beer & Physics del semstre, preparatevi per un viaggio nel lato oscuro della fisica alla scoperta dell'antimateria! 
+              👥 Con alcuni membri del gruppo di antimateria del Dipartimento di Fisica 
+              🗓 mercoledì 7 ottobre
+              🕒 ore 21:00
+              📍 Tetley's Pub"
+      linktxt: 
+      # todo: "n"
+      date: "2026-10-07"
     - image: viaggio26.jpg
       title: Viaggio scientifico
       text: "L'Associazione Spettro di Povo organizza in collaborazione con AISF Trento tre giornate alla scoperta della scienza e della cultura a Roma e Frascati da Giovedì 15 a Sabato 17 Ottobre 2026!
