@@ -28,8 +28,8 @@ sezioni:
       #     url: "Esercizi_2_25-26.pdf" 
       # - testo: "Lezione 3 - figure e tabelle"
       #   urls:
-      #   - nome: "Teoria"
-      #     url: "Lezione_3_25-26.pdf"
+        - nome: "Teoria"
+          url: "Lezione_3_26-27.pdf"
       #   - nome: "Esercizi"
       #     url: "Esercizi_3_25-26.pdf"
       # - testo: "Lezione 4 - extra"
