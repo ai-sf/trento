@@ -14,6 +14,8 @@ sezioni:
         urls:
         - nome: "Teoria"
           url: "Lezione_1_26-27.pdf"
+        - nome: "foto"
+          url: "foto.zip"
         - nome: "Esercizio"
           url: "Es_1_26-27.pdf" 
       # - testo: "Lezione 1.5 - installazione locale"
