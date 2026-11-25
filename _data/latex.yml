@@ -14,8 +14,6 @@ sezioni:
         urls:
         - nome: "Teoria"
           url: "Lezione_1_26-27.pdf"
-        - nome: "foto"
-          url: "foto.zip"
         - nome: "Esercizio"
           url: "Es_1_26-27.pdf" 
       # - testo: "Lezione 1.5 - installazione locale"
@@ -28,10 +26,14 @@ sezioni:
           url: "Lezione_2_26-27.pdf"
       #   - nome: "Esercizi"
       #     url: "Esercizi_2_25-26.pdf" 
-      # - testo: "Lezione 3 - figure e tabelle"
-      #   urls:
+      - testo: "Lezione 3 - figure e tabelle"
+        urls:
         - nome: "Teoria"
           url: "Lezione_3_26-27.pdf"
+        - nome: "esercizio"
+          url: "Es_2_lez3_26-27.pdf"
+        - nome: "foto"
+          url: "foto.zip"
       #   - nome: "Esercizi"
       #     url: "Esercizi_3_25-26.pdf"
       # - testo: "Lezione 4 - extra"
